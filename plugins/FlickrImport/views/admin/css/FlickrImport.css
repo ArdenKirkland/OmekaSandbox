@@ -1,0 +1,35 @@
+.previewPic {
+    margin-left: 15px;
+}
+.previewCheck {
+    position: relative;
+    top: -25%;
+}
+.previewPicDiv {
+    float: left;
+    width: 180px;
+    height: 150px;
+    margin:5px
+}
+
+#previewSelectButtons {
+    display:block;    
+    margin-top: 8px;
+    text-align: center;
+}
+
+#previewThumbs {
+    border: 1pm solid black;
+}
+
+.previewLabel {
+    max-height: 40px;
+    max-width: 150px;
+    min-width: 120px;
+    overflow: hidden;
+}
+
+#flickrimportsubmit {
+clear:both;
+display:block;
+}
