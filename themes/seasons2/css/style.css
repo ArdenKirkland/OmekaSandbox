@@ -20,7 +20,7 @@
   -- ExhibitBuilder
   -- Simple Pages
   -- Consortium Styles
-  -- Spring Styles
+  -- Linking Styles
   -- Summer Styles
   -- Autumn Styles
   -- Night Styles
@@ -1599,137 +1599,137 @@
     background-color: #fff;
   }
 
-  /* !---------- Spring Styles ---------- */
-  .spring body {
+  /* !---------- linking Styles ---------- */
+  .linking body {
     background-color: #4A6F14;
     color: #5A4E36;
   }
-  .spring h1, .spring #site-title a {
+  .linking h1, .linking #site-title a {
     color: #4A6F14;
   }
-  .spring input[type=submit], .spring button, .spring .button, .spring .show-advanced.button {
+  .linking input[type=submit], .linking button, .linking .button, .linking .show-advanced.button {
     background-color: #BA5656;
   }
-  .spring input[type=text], .spring input[type=password], .spring textarea {
+  .linking input[type=text], .linking input[type=password], .linking textarea {
     background-color: #fff;
     border: 1px solid #e8e8e8;
   }
-  .spring a:link {
+  .linking a:link {
     color: #FF8F00;
   }
-  .spring a:visited {
+  .linking a:visited {
     color: #D89966;
   }
-  .spring a:hover, .spring a:active, .spring a:focus {
+  .linking a:hover, .linking a:active, .linking a:focus {
     color: #FF5C00;
   }
-  .spring header {
+  .linking header {
     background-color: #F1FFBA;
   }
-  .spring nav.top {
+  .linking nav.top {
     background-color: #92BA56;
   }
-  .spring nav.top a:link, .spring nav.top a:visited {
+  .linking nav.top a:link, .linking nav.top a:visited {
     color: #F1FFBA;
   }
-  .spring nav.top a:active, .spring nav.top a:hover, .spring nav.top a:focus {
+  .linking nav.top a:active, .linking nav.top a:hover, .linking nav.top a:focus {
     color: #F9FFEC;
   }
-  .spring nav.top .sub-nav {
+  .linking nav.top .sub-nav {
     background-color: #92BA56;
   }
-  .spring nav.top .sub-nav li > a:link, .spring nav.top .sub-nav li > a:visited {
+  .linking nav.top .sub-nav li > a:link, .linking nav.top .sub-nav li > a:visited {
     color: #F1FFBA;
   }
-  .spring nav.top .sub-nav li > a:hover, .spring nav.top .sub-nav li > a:focus {
+  .linking nav.top .sub-nav li > a:hover, .linking nav.top .sub-nav li > a:focus {
     color: #fff;
   }
-  .spring #intro {
+  .linking #intro {
     color: #FF8F00;
   }
-  .spring #content,
-  .spring #secondary-nav .current a,
-  .spring #secondary-nav a.current,
-  .spring .secondary-nav .current a,
-  .spring .secondary-nav a.current,
-  .spring .exhibit-section-nav .current a {
+  .linking #content,
+  .linking #secondary-nav .current a,
+  .linking #secondary-nav a.current,
+  .linking .secondary-nav .current a,
+  .linking .secondary-nav a.current,
+  .linking .exhibit-section-nav .current a {
     background-color: #F9FFEC;
   }
-  .spring #home #content > div {
+  .linking #home #content > div {
     border-color: #BA5656;
   }
-  .spring #content > h1 {
+  .linking #content > h1 {
     color: #FF8F00;
   }
-  .spring #content h2 {
+  .linking #content h2 {
     border-color: #e8e8e8;
   }
-  .spring #content > div, .spring #content #primary > div, .spring #content #sidebar > div,
-  .spring #content #advanced-search-form > div, .spring #content #exhibit-pages {
+  .linking #content > div, .linking #content #primary > div, .linking #content #sidebar > div,
+  .linking #content #advanced-search-form > div, .linking #content #exhibit-pages {
     border-color: #BA5656;
   }
-  .spring #content #primary > div, .spring #content #sidebar > div {
+  .linking #content #primary > div, .linking #content #sidebar > div {
     background-color: #fff;
   }
-  .spring #content .pagination_previous a, .spring #content .pagination_next a {
+  .linking #content .pagination_previous a, .linking #content .pagination_next a {
     background-color: #92BA56;
   }
-  .spring #content .pagination a:link, .spring #content .pagination a:visited {
+  .linking #content .pagination a:link, .linking #content .pagination a:visited {
     color: #F1FFBA;
   }
-  .spring #content .pagination a:hover, .spring #content .pagination a:active {
+  .linking #content .pagination a:hover, .linking #content .pagination a:active {
     color: #fff;
   }
-  .spring #content .pagination input[type=text] {
+  .linking #content .pagination input[type=text] {
     border-color: #F1FFBA;
   }
-  .spring #content nav .pagination_list {
+  .linking #content nav .pagination_list {
     background-color: #92BA56;
   }
-  .spring #content .items-nav a:link, .spring #content .items-nav a:visited {
+  .linking #content .items-nav a:link, .linking #content .items-nav a:visited {
     color: #92BA56;
   }
-  .spring #content .items-nav a:active, .spring #content .items-nav a:hover {
+  .linking #content .items-nav a:active, .linking #content .items-nav a:hover {
     color: #ACBB00;
   }
-  .spring #content .item-img {
+  .linking #content .item-img {
     border-color: #e8e8e8;
   }
-  .spring #content div.hTagcloud {
+  .linking #content div.hTagcloud {
     border: 0;
     background-color: transparent;
     -moz-box-shadow: transparent 0 0 0;
     -webkit-box-shadow: transparent 0 0 0;
     box-shadow: transparent 0 0 0;
   }
-  .spring #search-results th {
+  .linking #search-results th {
     background-color: #BA5656;
   }
-  .spring #search-filters li, .spring #item-filters li {
+  .linking #search-filters li, .linking #item-filters li {
     background-color: #FFFFAD;
   }
-  .spring .page #content {
+  .linking .page #content {
     border-color: #BA5656;
   }
-  .spring footer {
+  .linking footer {
     background-color: #4A6F14;
   }
-  .spring footer p {
+  .linking footer p {
     color: #000;
   }
-  .spring .exhibit-page-nav {
+  .linking .exhibit-page-nav {
     background-color: #BA5656;
   }
-  .spring .exhibit-page-nav .current, .spring .exhibit-child-nav .current {
+  .linking .exhibit-page-nav .current, .linking .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
-  .spring .exhibit-page-nav a:link, .spring .exhibit-page-nav a:visited {
+  .linking .exhibit-page-nav a:link, .linking .exhibit-page-nav a:visited {
     color: #FFFFAD;
   }
-  .spring .exhibit-page-nav a:hover, .spring .exhibit-page-nav a:active {
+  .linking .exhibit-page-nav a:hover, .linking .exhibit-page-nav a:active {
     color: #fff;
   }
-  .spring #exhibit-page-navigation a, .spring #exhibit-page-navigation span {
+  .linking #exhibit-page-navigation a, .linking #exhibit-page-navigation span {
     background-color: #fff;
   }
 
