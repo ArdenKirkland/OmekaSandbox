@@ -1494,7 +1494,7 @@
     background: -o-linear-gradient(#d9e3eb, #fff7ec); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#d9e3eb, #fff7ec); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#d9e3eb, #fff7ec); /* Standard syntax */
-}
+  }
   .consortium #home #content > div {
     border-color: #4b6569;
   }
@@ -1649,7 +1649,7 @@
     color: #fff;
   }
   .linking nav.top .sub-nav li a:focus, .linking nav.top .sub-nav li a:hover {
-    background-color: rgba(0, 0, 0, 0.15);
+  	background-color: rgba(0, 0, 0, 0.15);
   }
   .linking #intro {
     color: #fff;
@@ -1660,21 +1660,21 @@
   .linking .secondary-nav .current a,
   .linking .secondary-nav a.current,
   .linking .exhibit-section-nav .current a {
-    background: #fff7ec; /* For browsers that do not support gradients */
+    background: #fff7ec; /* For browsers that do not support gradients etc. */
     background: url("../images/greysquares2.jpg");
-}
+  }
   .linking #home #content > div {
     border-color: #4b6569;
   }
   .linking #content > h1 {
     color: #00a3c8;
-    text-transform:  none;
+    text-transform: none;
   }
   .linking #content h2 {
     border-color: #dfe2e2;
   }
   .linking #content div {
-    border-color: #859ca2;
+  	border-color: #859ca2;
   }
   .linking #content > div, .linking #content #primary > div, .linking #content #sidebar > div,
   .linking #content #advanced-search-form > div, .linking #content #exhibit-pages {
@@ -1687,7 +1687,7 @@
     background-color: #4b6569;
   }
   .linking #content .pagination {
-    color: #fff;
+  	color: #fff;
   }
   .linking #content .pagination a:link, .linking #content .pagination a:visited {
     color: #def9ff;

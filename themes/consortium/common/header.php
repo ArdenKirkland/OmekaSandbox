@@ -22,7 +22,7 @@
 
     <!-- Stylesheets -->
     <?php
-    queue_css_url('//fonts.googleapis.com/css?family=Alegreya+Sans|Asap|Libre+Franklin|Martel+Sans|Open+Sans|Oxygen|Pontano+Sans|Raleway|Roboto|Source+Sans+Pro|Work+Sans|Ubuntu');
+    queue_css_url('//fonts.googleapis.com/css?family=Raleway|Ubuntu');
     queue_css_file(array('iconfonts', 'normalize', 'style'), 'screen');
     queue_css_file('print', 'print');
     echo head_css();
