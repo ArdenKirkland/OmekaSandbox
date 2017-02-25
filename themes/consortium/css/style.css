@@ -308,6 +308,28 @@
     width: auto;
     margin-right: 16px;
   }
+  nav.top {
+    background-color: #387180;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+  }
+  nav.top li:hover a {
+    color: #fff;
+  }
+  nav.top a:link, nav.top a:visited {
+    color: #fff;
+  }
+  nav.top a:active, nav.top a:hover, nav.top a:focus, nav.top a.open {
+    color: #fff;
+  }
+  nav.top .sub-nav {
+    background-color: #2796a9;
+  }
+  nav.top .sub-nav li > a:link, nav.top .sub-nav li > a:visited, nav.top .sub-nav li > a:active, nav.top .sub-nav li > a:hover, nav.top .sub-nav li > a:focus {
+    color: #fff;
+  }
+  nav.top .sub-nav li a:focus, nav.top .sub-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
 
   /* !---------- Pagination ---------- */
   .pagination {
@@ -1461,6 +1483,8 @@
   .consortium header {
     background-color: #fff7ec;
   }
+  
+  /* commenting out individual styles for top navigation
   .consortium nav.top {
     background-color: #387180;
   }
@@ -1482,6 +1506,8 @@
   .consortium nav.top .sub-nav li a:focus, .consortium nav.top .sub-nav li a:hover {
     background-color: rgba(0, 0, 0, 0.15);
   }
+  */
+  
   .consortium #intro {
     color: #fff;
   }
@@ -1635,6 +1661,8 @@
   .linking header {
     background-color: #fff7ec;
   }
+  
+  /* commenting out individual styles for top navigation
   .linking nav.top {
     background-color: #387180;
   }
@@ -1656,6 +1684,8 @@
   .linking nav.top .sub-nav li a:focus, .linking nav.top .sub-nav li a:hover {
   	background-color: rgba(0, 0, 0, 0.15);
   }
+  */
+  
   .linking #intro {
     color: #fff;
   }
@@ -1802,6 +1832,8 @@
   .summer header {
     background-color: #fff;
   }
+  
+  /* commenting out individual styles for top navigation
   .summer nav.top {
     background-color: #FCF283;
   }
@@ -1835,6 +1867,8 @@
   .summer #top-nav a:focus {
     color: #3C8F8C;
   }
+  */
+  
   .summer #intro {
     color: #EB4C0F;
   }
@@ -1957,6 +1991,8 @@
   .autumn header {
     background-color: #CE6C3E;
   }
+  
+  /* commenting out individual styles for top navigation
   .autumn nav.top {
     background-color: #CABFA6;
   }
@@ -1984,6 +2020,8 @@
   .autumn #top-nav a:focus {
     color: #fff;
   }
+  */
+  
   .autumn #intro {
     color: #815442;
   }
@@ -2097,6 +2135,8 @@
   .night header {
     background-color: #000;
   }
+  
+  /* commenting out individual styles for top navigation
   .night nav.top {
     background-color: #BDBDBD;
   }
@@ -2118,6 +2158,8 @@
   .night nav.top .sub-nav li > a:active, .night nav.top .sub-nav li > a:hover, .night nav.top .sub-nav li > a:focus {
     color: #FFFFA0;
   }
+  */
+  
   .night #intro {
     color: #BDBDBD;
   }
