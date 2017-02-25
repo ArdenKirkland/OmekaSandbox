@@ -1448,13 +1448,13 @@
     background-color: #dfe2e2;
   }
   .consortium a:link {
-    color: #87a2bb;
+    color: #07a2bb;
   }
   .consortium a:visited {
     color: #7d949a;
   }
   .consortium a:hover, .consortium a:active, .consortium a:focus {
-    color: #3bfbbb5;
+    color: #bfbbb5;
   }
   .consortium header {
     background-color: #fff7ec;
@@ -1489,11 +1489,11 @@
   .consortium .secondary-nav .current a,
   .consortium .secondary-nav a.current,
   .consortium .exhibit-section-nav .current a {
-    background-color: #fff7ec; /*For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#d9e3eb, #fff7ec): /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#d9e3eb, #fff7ec): /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#d9e3eb, #fff7ec): /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#d9e3eb, #fff7ec): /* Standard syntax */
+    background: #fff7ec; /*For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d9e3eb, #fff7ec); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d9e3eb, #fff7ec); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d9e3eb, #fff7ec); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d9e3eb, #fff7ec); /* Standard syntax */
   }
   .consortium #home #content > div {
     border-color: #4b6569;
@@ -1660,7 +1660,7 @@
   .linking .secondary-nav .current a,
   .linking .secondary-nav a.current,
   .linking .exhibit-section-nav .current a {
-    background-color: #fff7ec; /* For browsers that do not support gradients etc. */
+    background: #fff7ec; /* For browsers that do not support gradients etc. */
     
   }
   .linking #home #content > div {
@@ -1696,19 +1696,42 @@
   }
   .linking #content .pagination input[type=text] {
     border-color: #dfe2e2;
-    background-color: #228494;
+    background-color: #fff;
   }
   .linking #content nav .pagination_list {
-    background-color: #92BA56;
+    background-color: #228494;
   }
-  .linking #content .items-nav a:link, .linking #content .items-nav a:visited {
-    color: #92BA56;
+  .linking #content .items-nav, .linking #content .secondary-nav,
+  .linking #content #secondary-nav,
+  .linking #content #outputs,
+  .linking #content #exhibit-child-pages,
+  .linking #content #login-links a {
+    color: #fff;
   }
-  .linking #content .items-nav a:active, .linking #content .items-nav a:hover {
-    color: #ACBB00;
+  .linking #content .items-nav a:link, .linking #content .items-nav a:visited, .linking #content .secondary-nav a:link, .linking #content .secondary-nav a:visited,
+  .linking #content #secondary-nav a:link,
+  .linking #content #secondary-nav a:visited,
+  .linking #content #outputs a:link,
+  .linking #content #outputs a:visited,
+  .linking #content #exhibit-child-pages a:link,
+  .linking #content #exhibit-child-pages a:visited,
+  .linking #content #login-links a a:link,
+  .linking #content #login-links a a:visited {
+    color: #def9ff;
+  }
+  .linking #content .items-nav a:hover, .linking #content .items-nav a:active, .linking #content .secondary-nav a:hover, .linking #content .secondary-nav a:active,
+  .linking #content #secondary-nav a:hover,
+  .linking #content #secondary-nav a:active,
+  .linking #content #outputs a:hover,
+  .linking #content #outputs a:active,
+  .linking #content #exhibit-child-pages a:hover,
+  .linking #content #exhibit-child-pages a:active,
+  .linking #content #login-links a a:hover,
+  .linking #content #login-links a a:active {
+    color: #fff;
   }
   .linking #content .item-img {
-    border-color: #e8e8e8;
+    border-color: #dfe2e2;
   }
   .linking #content div.hTagcloud {
     border: 0;
@@ -1717,29 +1740,29 @@
     -webkit-box-shadow: transparent 0 0 0;
     box-shadow: transparent 0 0 0;
   }
-  .linking #search-results th {
-    background-color: #BA5656;
+ .linking #search-results th {
+    background-color: #4b6569;
   }
   .linking #search-filters li, .linking #item-filters li {
-    background-color: #FFFFAD;
+    background-color: #def9ff;
   }
   .linking .page #content {
-    border-color: #BA5656;
+    border-color: #4b6569;
   }
   .linking footer {
-    background-color: #4A6F14;
+    background-color: #fff7ec;
   }
   .linking footer p {
-    color: #000;
+    color: #387180;
   }
   .linking .exhibit-page-nav {
-    background-color: #BA5656;
+    background-color: #4b6569;
   }
   .linking .exhibit-page-nav .current, .linking .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
   .linking .exhibit-page-nav a:link, .linking .exhibit-page-nav a:visited {
-    color: #FFFFAD;
+    color: #def9ff;
   }
   .linking .exhibit-page-nav a:hover, .linking .exhibit-page-nav a:active {
     color: #fff;
