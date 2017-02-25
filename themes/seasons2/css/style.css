@@ -1435,8 +1435,8 @@
 
   /* !---------- Consortium Styles ---------- */
   .consortium body {
-    background-color: #2f3e4a;
-    color: #5a5a5a;
+    background-color: #fff7ec;
+    color: #387180;
   }
   .consortium h1, .consortium #site-title a {
     color: #859ca2;
@@ -1448,25 +1448,25 @@
     background-color: #dfe2e2;
   }
   .consortium a:link {
-    color: #228494;
+    color: #87a2bb;
   }
   .consortium a:visited {
-    color: #43ADB8;
+    color: #7d949a;
   }
   .consortium a:hover, .consortium a:active, .consortium a:focus {
-    color: #3acacc;
+    color: #3bfbbb5;
   }
   .consortium header {
-    background-color: #fff;
+    background-color: #fff7ec;
   }
   .consortium nav.top {
-    background-color: #228494;
+    background-color: #387180;
   }
   .consortium nav.top li:hover a {
     color: #fff;
   }
   .consortium nav.top a:link, .consortium nav.top a:visited {
-    color: #def9ff;
+    color: #fff;
   }
   .consortium nav.top a:active, .consortium nav.top a:hover, .consortium nav.top a:focus, .consortium nav.top a.open {
     color: #fff;
@@ -1489,7 +1489,11 @@
   .consortium .secondary-nav .current a,
   .consortium .secondary-nav a.current,
   .consortium .exhibit-section-nav .current a {
-    background-color: #43ADB8;
+    background-color: #fff7ec; /*For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#d9e3eb, #fff7ec): /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#d9e3eb, #fff7ec): /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#d9e3eb, #fff7ec): /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#d9e3eb, #fff7ec): /* Standard syntax */
   }
   .consortium #home #content > div {
     border-color: #4b6569;
@@ -1578,10 +1582,10 @@
     border-color: #4b6569;
   }
   .consortium footer {
-    background-color: #2f3e4a;
+    background-color: #fff7ec;
   }
   .consortium footer p {
-    color: #fff;
+    color: #387180;
   }
   .consortium .exhibit-page-nav {
     background-color: #4b6569;
