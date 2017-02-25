@@ -1617,7 +1617,6 @@
   }
   .linking input[type=text], .linking input[type=password], .linking textarea {
     background-color: #dfe2e2;
-    border: 1px solid #e8e8e8;
   }
   .linking a:link {
     color: #07a2bb;
