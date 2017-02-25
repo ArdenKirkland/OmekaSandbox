@@ -1668,6 +1668,7 @@
   }
   .linking #content > h1 {
     color: #00a3c8;
+    text-transform: none;
   }
   .linking #content h2 {
     border-color: #dfe2e2;
