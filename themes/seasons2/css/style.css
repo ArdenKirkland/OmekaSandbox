@@ -2310,7 +2310,6 @@
   nav.top .nav-item > a:focus,
   nav.top .nav-item > a:hover,
   nav.top .nav-item > a.open {
-    border: 1px solid #dedede;
     background-color: rgba(0, 0, 0, 0.15);
   }
   nav.top .nav-item > a.open {
