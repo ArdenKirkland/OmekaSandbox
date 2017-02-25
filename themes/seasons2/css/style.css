@@ -27,10 +27,10 @@
   */
   /* !---------- General HTML Elements ---------- */
   body {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 24px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 35px;
     word-wrap: break-word;
     height: 100%;
   }
