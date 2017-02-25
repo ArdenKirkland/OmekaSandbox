@@ -1678,12 +1678,10 @@
   .linking #content h2 {
     border-color: #dfe2e2;
   }
-  .linking #content div {
-  	border-color: #859ca2;
-  }
   .linking #content > div, .linking #content #primary > div, .linking #content #sidebar > div,
   .linking #content #advanced-search-form > div, .linking #content #exhibit-pages {
     border-color: #4b6569;
+    background-color: #dadada;
   }
   .linking #content #primary > div, .linking #content #sidebar > div {
     background-color: #fff;
