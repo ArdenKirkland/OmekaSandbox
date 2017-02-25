@@ -442,6 +442,7 @@
 
   /* !---------- Header ---------- */
   #site-title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 32px;
     line-height: 48px;
     font-weight: 300;
