@@ -1489,7 +1489,7 @@
   .consortium .secondary-nav .current a,
   .consortium .secondary-nav a.current,
   .consortium .exhibit-section-nav .current a {
-    background: #fff7ec; /*For browsers that do not support gradients */
+    background: #fff7ec; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#d9e3eb, #fff7ec); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#d9e3eb, #fff7ec); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#d9e3eb, #fff7ec); /* For Firefox 3.6 to 15 */
@@ -1649,7 +1649,7 @@
     color: #fff;
   }
   .linking nav.top .sub-nav li a:focus, .linking nav.top .sub-nav li a:hover {
-  	background-color: rgba(0,0,0,0.15):
+  	background-color: rgba(0, 0, 0, 0.15);
   }
   .linking #intro {
     color: #fff;
@@ -1740,7 +1740,7 @@
     -webkit-box-shadow: transparent 0 0 0;
     box-shadow: transparent 0 0 0;
   }
- .linking #search-results th {
+  .linking #search-results th {
     background-color: #4b6569;
   }
   .linking #search-filters li, .linking #item-filters li {
