@@ -1661,7 +1661,7 @@
   .linking .secondary-nav a.current,
   .linking .exhibit-section-nav .current a {
     background: #fff7ec; /* For browsers that do not support gradients etc. */
-    
+    background: url("../images/greysquares2.jpg");
   }
   .linking #home #content > div {
     border-color: #4b6569;
