@@ -479,6 +479,7 @@
     font-size: 0.875em;
     line-height: 1.71429em;
     padding-right: 3em;
+    border: 1px solid #387180;
   }
   #search-form button {
     width: 2.25em;
@@ -515,7 +516,7 @@
     top: 0;
     right: 2.25em;
     line-height: 30px;
-    background-color: #4b6569;
+    background-color: #387180;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -1442,7 +1443,7 @@
     color: #859ca2;
   }
   .consortium input[type=submit], .consortium button, .consortium .button, .consortium .show-advanced.button {
-    background-color: #4b6569;
+    background-color: #387180;
   }
   .consortium input[type=text], .consortium input[type=password], .consortium textarea {
     background-color: #dfe2e2;
@@ -1612,8 +1613,11 @@
   .linking h1, .linking #site-title a {
     color: #859ca2;
   }
-  .linking input[type=submit], .linking button, .linking .button, .linking .show-advanced.button {
-    background-color: #4b6569;
+  .linking input[type=submit], .linking button, .linking .button {
+    background-color: #387180;
+  }
+  .linking .show-advanced.button {
+    background-color: #387180;
   }
   .linking input[type=text], .linking input[type=password], .linking textarea {
     background-color: #dfe2e2;
