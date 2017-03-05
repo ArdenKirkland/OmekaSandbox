@@ -1,0 +1,3 @@
+[submodule "plugins/MoreExhibitLayouts"]
+	path = plugins/MoreExhibitLayouts
+	url = https://github.com/ArdenKirkland/MoreExhibitLayouts.git
