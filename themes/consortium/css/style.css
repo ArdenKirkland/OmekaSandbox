@@ -313,13 +313,13 @@
     font-family: Verdana, Arial, Helvetica, sans-serif;
   }
   nav.top li:hover a {
-    color: #fff;
+    color: #bfbbb5;
   }
   nav.top a:link, nav.top a:visited {
     color: #fff;
   }
   nav.top a:active, nav.top a:hover, nav.top a:focus, nav.top a.open {
-    color: #fff;
+    color: #bfbbb5;
   }
   nav.top .sub-nav {
     background-color: #2796a9;
@@ -1458,18 +1458,42 @@
   }
 
   /* !---------- Consortium Styles ---------- */
+  
+  /* ======= Set Basic Consortium Colors ======= */
+/* USE SEARCH AND REPLACE TO CHANGE COLORS THROUGHOUT THIS SECTION */
+
+/* #FFF7EC - background-color: body, header, search, bottom gradient */
+/* #D9E3EB - background top gradient, search box background */
+/* #262626 - A, P, TD, H1, HR, LI, Site-title, body, Footer */
+/* #387180 - buttons, nav-top, hyperlinks, borders, content H1, pagination */
+/* #BFBBB5 - hover/active/focus hyperlinks, body and nav-top */
+/* #FFF    - nav.top text, intro text, div, pagination background */
+/* #2796A9 - sub.nav background */
+/* #DFE2E2 - item-img border, page content border */
+
+/* these from original HVVACC home not used */
+/* #CCB375 - TABLE-Outline */
+/* #EBDFC7 - .Form-Input, .Form-Submit, Table-Light */
+/* #CEDDE7 - .ContentHome */
+/* #D4BE89 - .Menu2 */
+
+/* other colors considered for consortium */
+/* #4B6569 -  */
+
+/* #859ca2 -  */
+
   .consortium body {
     background-color: #fff7ec;
-    color: #387180;
+    color: #262626;
   }
   .consortium h1, .consortium #site-title a {
-    color: #859ca2;
+    color: #262626;
   }
   .consortium input[type=submit], .consortium button, .consortium .button, .consortium .show-advanced.button {
     background-color: #387180;
   }
   .consortium input[type=text], .consortium input[type=password], .consortium textarea {
-    background-color: #dfe2e2;
+    background-color: #D9E3EB;
   }
   .consortium a:link {
     color: #387180;
@@ -1484,18 +1508,18 @@
     background-color: #fff7ec;
   }
   
-  /* commenting out individual styles for top navigation
+  /* commenting out individual styles for top navigation - see these in main nav above
   .consortium nav.top {
     background-color: #387180;
   }
   .consortium nav.top li:hover a {
-    color: #fff;
+    color: #bfbbb5;
   }
   .consortium nav.top a:link, .consortium nav.top a:visited {
     color: #fff;
   }
   .consortium nav.top a:active, .consortium nav.top a:hover, .consortium nav.top a:focus, .consortium nav.top a.open {
-    color: #fff;
+    color: #bfbbb5;
   }
   .consortium nav.top .sub-nav {
     background-color: #2796a9;
@@ -1524,49 +1548,49 @@
     background: linear-gradient(#d9e3eb, #fff7ec); /* Standard syntax */
   }
   .consortium #home #content > div {
-    border-color: #4b6569;
+    border-color: #387180;
   }
   .consortium #content > h1 {
     color: #387180;
   }
   .consortium #content h2 {
-    border-color: #dfe2e2;
+    border-color: #387180;
   }
   .consortium #content div {
-    border-color: #859ca2;
+    border-color: #387180;
   }
   .consortium #content > div, .consortium #content #primary > div, .consortium #content #sidebar > div,
   .consortium #content #advanced-search-form > div, .consortium #content #exhibit-pages {
-    border-color: #4b6569;
+    border-color: #387180;
   }
   .consortium #content #primary > div, .consortium #content #sidebar > div {
     background-color: #fff;
   }
   .consortium #content .pagination_previous a, .consortium #content .pagination_next a {
-    background-color: #4b6569;
+    background-color: #fff;
   }
   .consortium #content .pagination {
-    color: #fff;
+    color: #262626;
   }
   .consortium #content .pagination a:link, .consortium #content .pagination a:visited {
-    color: #def9ff;
+    color: #262626;
   }
   .consortium #content .pagination a:hover, .consortium #content .pagination a:active {
-    color: #fff;
+    color: #387180;
   }
   .consortium #content .pagination input[type=text] {
-    border-color: #dfe2e2;
+    border-color: #387180;
     background-color: #fff;
   }
   .consortium #content nav .pagination_list {
-    background-color: #228494;
+    background-color: #fff;
   }
   .consortium #content .items-nav, .consortium #content .secondary-nav,
   .consortium #content #secondary-nav,
   .consortium #content #outputs,
   .consortium #content #exhibit-child-pages,
   .consortium #content #login-links a {
-    color: #fff;
+    color: #262626;
   }
   .consortium #content .items-nav a:link, .consortium #content .items-nav a:visited, .consortium #content .secondary-nav a:link, .consortium #content .secondary-nav a:visited,
   .consortium #content #secondary-nav a:link,
@@ -1588,7 +1612,7 @@
   .consortium #content #exhibit-child-pages a:active,
   .consortium #content #login-links a a:hover,
   .consortium #content #login-links a a:active {
-    color: #fff;
+    color: #bfbbb5;
   }
   .consortium #content .item-img {
     border-color: #dfe2e2;
@@ -1601,31 +1625,31 @@
     box-shadow: transparent 0 0 0;
   }
   .consortium #search-results th {
-    background-color: #4b6569;
+    background-color: #387180;
   }
   .consortium #search-filters li, .consortium #item-filters li {
-    background-color: #def9ff;
+    background-color: #fff;
   }
   .consortium .page #content {
-    border-color: #4b6569;
+    border-color: #dfe2e2;
   }
   .consortium footer {
     background-color: #fff7ec;
   }
   .consortium footer p {
-    color: #387180;
+    color: #262626;
   }
   .consortium .exhibit-page-nav {
-    background-color: #4b6569;
+    background-color: #fff;
   }
   .consortium .exhibit-page-nav .current, .consortium .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
   }
   .consortium .exhibit-page-nav a:link, .consortium .exhibit-page-nav a:visited {
-    color: #def9ff;
+    color: #387180;
   }
   .consortium .exhibit-page-nav a:hover, .consortium .exhibit-page-nav a:active {
-    color: #fff;
+    color: #BFBBB5;
   }
   .consortium #exhibit-page-navigation a, .consortium #exhibit-page-navigation span {
     background-color: #fff;
