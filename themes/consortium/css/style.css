@@ -1230,6 +1230,7 @@
   }
   .exhibits .exhibit-page {
     font-weight: bold;
+      background-color: #dadada;
   }
   .exhibits.summary #content #primary > div {
     background-color: transparent;
@@ -1733,7 +1734,7 @@
   }
   .linking #content > div, .linking #content #primary > div, .linking #content #sidebar > div,
   .linking #content #advanced-search-form > div, .linking #content #exhibit-pages {
-    border-color: #4b6569;
+    border-color: #00a3c8;
     background-color: #dadada;
   }
   .linking #content #primary > div, .linking #content #sidebar > div {
