@@ -1562,6 +1562,8 @@
   .consortium #content > div, .consortium #content #primary > div, .consortium #content #sidebar > div,
   .consortium #content #advanced-search-form > div, .consortium #content #exhibit-pages {
     border-color: #387180;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   .consortium #content #primary > div, .consortium #content #sidebar > div {
     background-color: #fff;
@@ -1591,6 +1593,8 @@
   .consortium #content #exhibit-child-pages,
   .consortium #content #login-links a {
     color: #262626;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   .consortium #content .items-nav a:link, .consortium #content .items-nav a:visited, .consortium #content .secondary-nav a:link, .consortium #content .secondary-nav a:visited,
   .consortium #content #secondary-nav a:link,
@@ -2590,9 +2594,8 @@
   .exhibits #exhibit-blocks,
   .exhibits #exhibit-page-navigation {
     width: 66.10169%;
-    float: left;
     margin-right: 1.69492%;
-    display: inline;
+    display: block;
     padding: 0 16px 1.5em;
   }
   .exhibits #exhibit-pages:not(.full) {
