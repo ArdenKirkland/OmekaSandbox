@@ -234,8 +234,6 @@
   }
 
   .image {
-    height: 4.5em;
-    width: auto;
     float: left;
     display: block;
     margin: 0 0.75em 0.75em 0;
@@ -247,9 +245,6 @@
 
   .collection .image,
   .exhibit .image {
-    -moz-box-shadow: -3px -3px 0 #bbb, -4px -4px 0 #fff, -7px -7px 0 #dedede;
-    -webkit-box-shadow: -3px -3px 0 #bbb, -4px -4px 0 #fff, -7px -7px 0 #dedede;
-    box-shadow: -3px -3px 0 #bbb, -4px -4px 0 #fff, -7px -7px 0 #dedede;
     margin-left: 7px;
   }
 
@@ -658,6 +653,8 @@
     *behavior: url("../javascripts/boxsizing.htc");
     margin-bottom: 1.125em;
     *zoom: 1;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   #content > div > *:only-child, #content section > *:only-child {
     margin-top: 0;
@@ -1212,6 +1209,8 @@
   .exhibits #content .navigation {
     padding-left: 0;
     *zoom: 1;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   .exhibits #content .navigation:after {
     content: "";
@@ -1551,6 +1550,8 @@
   }
   .consortium #content > h1 {
     color: #387180;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   .consortium #content h2 {
     border-color: #387180;
