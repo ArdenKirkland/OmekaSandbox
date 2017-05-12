@@ -657,7 +657,7 @@
     margin: 0 auto;
   }
   #content > div > *:only-child, #content section > *:only-child {
-    margin-top: 0;
+    margin-top: 20px;
   }
   #content > div:after, #content section:after {
     content: "";
@@ -1417,8 +1417,12 @@
     overflow: hidden;
   }
 
+  .layout-text {
+    margin: 20px 30px 20px 30px;
+  }
+    
   .exhibit-block > *:last-child {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
   .exhibit-item .exhibit-item-link img {
@@ -1533,12 +1537,7 @@
   .consortium #intro {
     color: #fff;
   }
-  .consortium #content,
-  .consortium #secondary-nav .current a,
-  .consortium #secondary-nav a.current,
-  .consortium .secondary-nav .current a,
-  .consortium .secondary-nav a.current,
-  .consortium .exhibit-section-nav .current a {
+  .consortium #content {
     background: #fff7ec; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#d9e3eb, #fff7ec); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#d9e3eb, #fff7ec); /* For Opera 11.1 to 12.0 */
@@ -1646,9 +1645,7 @@
   .consortium .exhibit-page-nav {
     background-color: #fff;
   }
-  .consortium .exhibit-page-nav .current, .consortium .exhibit-child-nav .current {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
+ 
   .consortium .exhibit-page-nav a:link, .consortium .exhibit-page-nav a:visited {
     color: #387180;
   }
@@ -1657,6 +1654,10 @@
   }
   .consortium #exhibit-page-navigation a, .consortium #exhibit-page-navigation span {
     background-color: #fff;
+  }
+    
+  .consortium .exhibit-page-nav .current, .consortium .exhibit-child-nav .current {
+    background-color: rgba(0, 0, 0, 0.1);
   }
 
   /* !---------- Linking Styles ---------- */
@@ -2598,6 +2599,7 @@
     display: block;
     padding: 0 16px 1.5em;
   }
+    
   .exhibits #exhibit-pages:not(.full) {
     width: 32.20339%;
     display: inline-block;
