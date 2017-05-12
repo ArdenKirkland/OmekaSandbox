@@ -1294,7 +1294,7 @@
   }
   .exhibits.show #content #exhibit-page-navigation > div {
     padding: 0;
-    width: 100%;
+    width: 50%;
     text-align: center;
   }
   .exhibits.show #content #exhibit-page-navigation #exhibit-nav-next {
@@ -2628,7 +2628,7 @@
   }
   .exhibits.show #content #exhibit-page-navigation > div {
     padding: 0;
-    width: 33%;
+    width: 24%;
   }
   .exhibits.show #content #exhibit-page-navigation a, .exhibits.show #content #exhibit-page-navigation span {
     width: 100%;
