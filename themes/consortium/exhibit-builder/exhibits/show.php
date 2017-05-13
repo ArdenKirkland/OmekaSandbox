@@ -5,13 +5,13 @@ echo head(array(
     $exhibitNavOption = get_theme_option('exhibits_nav');
 ?>
 
+<h1><?php echo link_to_exhibit(); ?></h1>
+
 <?php if ($exhibitNavOption == 'full'): ?>
 <nav id="exhibit-pages" class="full">
     <?php echo exhibit_builder_page_nav(); ?>
 </nav>
 <?php endif; ?>
-
-<h1><span class="exhibit-page"><?php echo metadata('exhibit_page', 'title'); ?></span></h1>
 
 <?php if (count(exhibit_builder_child_pages()) > 0 && $exhibitNavOption == 'full'): ?>
 <nav id="exhibit-child-pages" class="secondary-nav">
