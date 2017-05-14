@@ -1308,6 +1308,9 @@
     padding-left: 0;
     clear: both;
   }
+    .exhibit-page-nav > li:nth-of-type(n+3) {
+        clear:both;
+    }
   .exhibits.show #content .exhibit-page-nav .current, .exhibits.show #content .exhibit-child-nav .current {
     font-weight: bold;
   }
