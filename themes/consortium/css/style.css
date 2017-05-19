@@ -1445,11 +1445,15 @@
         margin-top: 10px;
         clear:both;
         font-size: 12px;
-        line-height: 15px;
-        text-align: left;
+        line-height: 18px;
     }
     
     .exhibit-item-caption p {
+        margin: 0 0 0 0;
+        clear: both;
+    }
+    
+    .exhibit-item-caption div {
         margin: 0 0 0 0;
         clear: both;
     }
