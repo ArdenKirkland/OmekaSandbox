@@ -1440,6 +1440,19 @@
   .exhibit-item .exhibit-item-link img {
     width: 100%;
   }
+    
+    .exhibit-item-caption {
+        margin-top: 10px;
+        clear:both;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: left;
+    }
+    
+    .exhibit-item-caption p {
+        margin: 0 0 0 0;
+        clear: both;
+    }
 
   /* !---------- Simple Pages ---------- */
   .simple-pages-navigation {
