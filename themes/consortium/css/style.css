@@ -459,7 +459,7 @@
 
   /* !---------- Header ---------- */
   header {
-    background-color: #fff7ec;
+    background-color: #ffffff;
   }
     
   #site-title {
@@ -1492,7 +1492,8 @@
   /* ======= Set Basic Consortium Colors ======= */
 /* USE SEARCH AND REPLACE TO CHANGE COLORS THROUGHOUT THIS SECTION */
 
-/* #FFF7EC - background-color: body, header, footer, search, bottom gradient */
+/* #FFFFFF - background-color: header */
+/* #FFF7EC - background-color: body, footer, search, bottom gradient */
 /* #D9E3EB - background top gradient, search box background */
 /* #262626 - A, P, TD, H1, HR, LI, Site-title, body, Footer, some pagination */
 /* #387180 - buttons, nav-top, hyperlinks, borders, content H1, pagination, search results th */
@@ -1534,7 +1535,7 @@
     color: #bfbbb5;
   }
   .consortium header {
-    background-color: #fff7ec;
+    background-color: #ffffff;
   }
   
   /* commenting out individual styles for top navigation - see these in main nav above
