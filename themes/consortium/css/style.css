@@ -27,7 +27,7 @@
   */
   /* !---------- General HTML Elements ---------- */
   body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Verdana, sans-serif;
     font-size: 13px;
     line-height: 35px;
     word-wrap: break-word;
@@ -61,11 +61,13 @@
 
   /* !---------- Headings ---------- */
   h1 {
+    font-family: Spinnaker, Verdana, Arial;  
     font-size: 32px;
     line-height: 48px;
   }
 
   h2 {
+    font-family: Spinnaker, Verdana, Arial;  
     font-size: 24px;
     line-height: 36px;
   }
@@ -299,13 +301,14 @@
     padding-left: 0;
   }
   .secondary-nav li, #secondary-nav li {
+    font-family: Spinnaker, Verdana, Arial, Helvetica;
     float: left;
     width: auto;
     margin-right: 16px;
   }
   nav.top {
     background-color: #387180;
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Spinnaker, Verdana, Arial, Helvetica, sans-serif;
   }
   nav.top li:hover a {
     color: #bfbbb5;
@@ -1968,6 +1971,7 @@
     z-index: 15;
   }
   nav.top .nav-item {
+    font-family: Spinnaker, Verdana, Arial;
     list-style: none;
     display: inline-block;
     padding: 0;
