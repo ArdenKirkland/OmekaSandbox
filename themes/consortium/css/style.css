@@ -1587,7 +1587,6 @@
   .consortium #content > h1 {
     color: #387180;
     max-width: 1080px;
-    margin: 0 auto;
   }
   .consortium #content h2 {
     border-color: #387180;
@@ -1599,11 +1598,10 @@
   .consortium #content #advanced-search-form > div, .consortium #content #exhibit-pages {
     border-color: #387180;
     max-width: 1080px;
-    margin: 0px auto;
   }
     
   .consortium #content > div {
-    margin: 10px auto;
+    margin: 10px 0px 10px 0px;
   }
     
   .consortium #content #primary > div, .consortium #content #sidebar > div {
