@@ -28,7 +28,7 @@
   /* !---------- General HTML Elements ---------- */
   body {
     font-family: Verdana, sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 35px;
     word-wrap: break-word;
     height: 100%;
@@ -304,7 +304,7 @@
     font-family: Spinnaker, Verdana, Arial, Helvetica;
     float: left;
     width: auto;
-    margin-right: 16px;
+    margin-right: 20px;
   }
   nav.top {
     background-color: #387180;
@@ -1316,6 +1316,12 @@
   }
     .exhibit-page-nav > li:nth-of-type(n+3) {
         clear:both;
+    }
+    
+    .exhibit-nav-level-1 > li {
+        background-color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
     }
   .exhibits.show #content .exhibit-page-nav .current, .exhibits.show #content .exhibit-child-nav .current {
     font-weight: bold;
@@ -2422,9 +2428,7 @@
     background-color: rgba(0, 0, 0, 0);
     float: left;
   }
-  .exhibits.show #content .exhibit-page-nav > li:nth-child(2) li:first-of-type {
-    padding-left: 0;
-  }
+    
   .exhibits.show #content #exhibit-page-navigation .exhibits-nav-prev {
     text-align: left;
   }
