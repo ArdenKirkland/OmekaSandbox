@@ -1700,6 +1700,206 @@
   }
  
     
+ /* !---------- HVVACC Styles ---------- */
+  
+  /* ======= Set Basic HVVACC Colors ======= */
+/* USE SEARCH AND REPLACE TO CHANGE COLORS THROUGHOUT THIS SECTION */
+
+/* #FFFFFF - background-color: header */
+/* #D9E3EB - background-color: body, footer, search, bottom gradient */
+/* #FFF7EC - background top gradient, search box background */
+/* #262626 - A, P, TD, H1, HR, LI, Site-title, body, Footer, some pagination */
+/* #1450FS - buttons, nav-top, hyperlinks, borders, content H1, pagination, search results th */
+/* #BFBBB5 - hover/active/focus hyperlinks, body and nav-top */
+/* #FFF    - nav.top text, intro text, div, pagination, filters background */
+/* #2796A9 - sub.nav background */
+/* #DFE2E2 - item-img border, page content border */
+
+  .hvvacc body {
+    background-color: #D9E3EB;
+    color: #262626;
+  }
+  .hvvacc h1, .hvvacc #site-title a {
+    color: #262626;
+  }
+  .hvvacc input[type=submit], .hvvacc button, .hvvacc .button, .hvvacc .show-advanced.button {
+    background-color: #1450FS;
+  }
+  .hvvacc input[type=text], .hvvacc input[type=password], .hvvacc textarea {
+    background-color: #FFF7EC;
+  }
+  .hvvacc a:link {
+    color: #1450FS;
+  }
+  .hvvacc a:visited {
+    color: #1450FS;
+  }
+  .hvvacc a:hover, .hvvacc a:active, .hvvacc a:focus {
+    color: #bfbbb5;
+  }
+  .hvvacc header {
+    background-color: #ffffff;
+  }
+  
+  /* commenting out individual styles for top navigation - see these in main nav above
+  .hvvacc nav.top {
+    background-color: #1450FS;
+  }
+  .hvvacc nav.top li:hover a {
+    color: #bfbbb5;
+  }
+  .hvvacc nav.top a:link, .hvvacc nav.top a:visited {
+    color: #fff;
+  }
+  .hvvacc nav.top a:active, .hvvacc nav.top a:hover, .hvvacc nav.top a:focus, .hvvacc nav.top a.open {
+    color: #bfbbb5;
+  }
+  .hvvacc nav.top .sub-nav {
+    background-color: #2796a9;
+  }
+  .hvvacc nav.top .sub-nav li > a:link, .hvvacc nav.top .sub-nav li > a:visited, .hvvacc nav.top .sub-nav li > a:active, .hvvacc nav.top .sub-nav li > a:hover, .hvvacc nav.top .sub-nav li > a:focus {
+    color: #fff;
+  }
+  .hvvacc nav.top .sub-nav li a:focus, .hvvacc nav.top .sub-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  */
+  
+  .hvvacc #intro {
+    color: #fff;
+  }
+  .hvvacc #content {
+    background: #D9E3EB; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFF7EC, #D9E3EB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF7EC, #D9E3EB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF7EC, #D9E3EB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF7EC, #D9E3EB); /* Standard syntax */
+  }
+  .hvvacc #home #content > div {
+    border-color: #1450FS;
+  }
+  .hvvacc #content > h1 {
+    color: #1450FS;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .hvvacc #content h2 {
+    border-color: #1450FS;
+  }
+  .hvvacc #content div {
+    border-color: #1450FS;
+  }
+  .hvvacc #content > div, .hvvacc #content #primary > div, .hvvacc #content #sidebar > div,
+  .hvvacc #content #advanced-search-form > div, .hvvacc #content #exhibit-pages {
+    border-color: #1450FS;
+    max-width: 1080px;
+    margin: 0px auto;
+  }
+    
+  .hvvacc #content > div {
+    margin: 10px auto;
+  }
+    
+  .hvvacc #content #primary > div, .hvvacc #content #sidebar > div {
+    background-color: #fff;
+  }
+  .hvvacc #content .pagination_previous a, .hvvacc #content .pagination_next a {
+    background-color: #fff;
+  }
+  .hvvacc #content .pagination {
+    color: #262626;
+  }
+  .hvvacc #content .pagination a:link, .hvvacc #content .pagination a:visited {
+    color: #262626;
+  }
+  .hvvacc #content .pagination a:hover, .hvvacc #content .pagination a:active {
+    color: #1450FS;
+  }
+  .hvvacc #content .pagination input[type=text] {
+    border-color: #1450FS;
+    background-color: #fff;
+  }
+  .hvvacc #content nav .pagination_list {
+    background-color: #fff;
+  }
+  .hvvacc #content .items-nav, .hvvacc #content .secondary-nav,
+  .hvvacc #content #secondary-nav,
+  .hvvacc #content #outputs,
+  .hvvacc #content #exhibit-child-pages,
+  .hvvacc #content #login-links a {
+    color: #262626;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .hvvacc #content .items-nav a:link, .hvvacc #content .items-nav a:visited, .hvvacc #content .secondary-nav a:link, .hvvacc #content .secondary-nav a:visited,
+  .hvvacc #content #secondary-nav a:link,
+  .hvvacc #content #secondary-nav a:visited,
+  .hvvacc #content #outputs a:link,
+  .hvvacc #content #outputs a:visited,
+  .hvvacc #content #exhibit-child-pages a:link,
+  .hvvacc #content #exhibit-child-pages a:visited,
+  .hvvacc #content #login-links a a:link,
+  .hvvacc #content #login-links a a:visited {
+    color: #1450FS;
+  }
+  .hvvacc #content .items-nav a:hover, .hvvacc #content .items-nav a:active, .hvvacc #content .secondary-nav a:hover, .hvvacc #content .secondary-nav a:active,
+  .hvvacc #content #secondary-nav a:hover,
+  .hvvacc #content #secondary-nav a:active,
+  .hvvacc #content #outputs a:hover,
+  .hvvacc #content #outputs a:active,
+  .hvvacc #content #exhibit-child-pages a:hover,
+  .hvvacc #content #exhibit-child-pages a:active,
+  .hvvacc #content #login-links a a:hover,
+  .hvvacc #content #login-links a a:active {
+    color: #bfbbb5;
+  }
+  .hvvacc #content .item-img {
+    border-color: #dfe2e2;
+  }
+  .hvvacc #content div.hTagcloud {
+    border: 0;
+    background-color: transparent;
+    -moz-box-shadow: transparent 0 0 0;
+    -webkit-box-shadow: transparent 0 0 0;
+    box-shadow: transparent 0 0 0;
+  }
+  .hvvacc #search-results th {
+    background-color: #1450FS;
+  }
+  .hvvacc #search-filters li, .hvvacc #item-filters li {
+    background-color: #fff;
+  }
+  .hvvacc .page #content {
+    border-color: #dfe2e2;
+  }
+  .hvvacc footer {
+    background-color: #D9E3EB;
+  }
+  .hvvacc footer p {
+    color: #262626;
+  }
+  .hvvacc .exhibit-page-nav, .hvvacc .exhibit-child-nav {
+    background-color: rgba(0, 0, 0, 0);
+  }
+ 
+  .hvvacc .exhibit-page-nav a:link, .hvvacc .exhibit-page-nav a:visited, .hvvacc .exhibit-child-nav a:link, .hvvacc .exhibit-child-nav a:visited {
+    color: #1450FS;
+  }
+  .hvvacc .exhibit-page-nav a:hover, .hvvacc .exhibit-page-nav a:active, .hvvacc .exhibit-child-nav a:hover, .hvvacc .exhibit-child-nav a:active {
+    color: #BFBBB5;
+  }
+  .hvvacc #exhibit-page-navigation a, .hvvacc #exhibit-page-navigation span {
+    background-color: #fff;
+  }
+    
+  .hvvacc .exhibit-page-nav .current, .hvvacc .exhibit-child-nav .current {
+    background-color: rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+  }
+ 
+    
 
   /* !---------- Linking Styles ---------- */
   
