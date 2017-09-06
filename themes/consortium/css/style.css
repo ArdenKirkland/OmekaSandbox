@@ -1323,6 +1323,7 @@
         background-color: #fff;
         padding-left: 10px;
         padding-right: 10px;
+        margin-bottom: 10px;
     }
   .exhibits.show #content .exhibit-page-nav .current, .exhibits.show #content .exhibit-child-nav .current {
     font-weight: bold;
