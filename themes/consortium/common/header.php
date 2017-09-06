@@ -22,7 +22,7 @@
 
     <!-- Stylesheets -->
     <?php
-    queue_css_url('//fonts.googleapis.com/css?family=Raleway|Ubuntu');
+    queue_css_url('//fonts.googleapis.com/css?family=Raleway|Ubuntu|Spinnaker');
     queue_css_file(array('iconfonts', 'normalize', 'style'), 'screen');
     queue_css_file('print', 'print');
     echo head_css();
