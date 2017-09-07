@@ -5,13 +5,13 @@ echo head(array(
     $exhibitNavOption = get_theme_option('exhibits_nav');
 ?>
 
+<h1><?php echo link_to_exhibit(); ?></h1>
+
 <?php if ($exhibitNavOption == 'full'): ?>
 <nav id="exhibit-pages" class="full">
     <?php echo exhibit_builder_page_nav(); ?>
 </nav>
 <?php endif; ?>
-
-<h1><span class="exhibit-page"><?php echo metadata('exhibit_page', 'title'); ?></span></h1>
 
 <?php if (count(exhibit_builder_child_pages()) > 0 && $exhibitNavOption == 'full'): ?>
 <nav id="exhibit-child-pages" class="secondary-nav">
@@ -24,19 +24,17 @@ echo head(array(
 </div>
 
 <div id="exhibit-page-navigation">
-    <?php if ($prevLink = exhibit_builder_link_to_previous_page()): ?>
+    <?php if ($prevLink = exhibit_builder_link_to_previous_page('← Previous Page
+')): ?>
     <div id="exhibit-nav-prev">
     <?php echo $prevLink; ?>
     </div>
     <?php endif; ?>
-    <?php if ($nextLink = exhibit_builder_link_to_next_page()): ?>
+    <?php if ($nextLink = exhibit_builder_link_to_next_page('Next Page →')): ?>
     <div id="exhibit-nav-next">
     <?php echo $nextLink; ?>
     </div>
     <?php endif; ?>
-    <div id="exhibit-nav-up">
-    <?php echo exhibit_builder_page_trail(); ?>
-    </div>
 </div>
 
 <?php if (($exhibitNavOption == 'side') || !isset($exhibitNavOption)): ?>

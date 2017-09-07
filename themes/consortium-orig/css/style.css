@@ -27,9 +27,8 @@
   */
   /* !---------- General HTML Elements ---------- */
   body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 13px;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
     line-height: 35px;
     word-wrap: break-word;
     height: 100%;
@@ -62,11 +61,13 @@
 
   /* !---------- Headings ---------- */
   h1 {
+    font-family: Spinnaker, Verdana, Arial;  
     font-size: 32px;
     line-height: 48px;
   }
 
   h2 {
+    font-family: Spinnaker, Verdana, Arial;  
     font-size: 24px;
     line-height: 36px;
   }
@@ -109,6 +110,7 @@
 
   input[type=text], input[type=password], textarea,
   input[type=submit], button, .button {
+    background-color: #387180;
     border: 0;
     padding: 0.46875em 16px;
     margin: 0;
@@ -235,8 +237,6 @@
   }
 
   .image {
-    height: 4.5em;
-    width: auto;
     float: left;
     display: block;
     margin: 0 0.75em 0.75em 0;
@@ -248,9 +248,6 @@
 
   .collection .image,
   .exhibit .image {
-    -moz-box-shadow: -3px -3px 0 #bbb, -4px -4px 0 #fff, -7px -7px 0 #dedede;
-    -webkit-box-shadow: -3px -3px 0 #bbb, -4px -4px 0 #fff, -7px -7px 0 #dedede;
-    box-shadow: -3px -3px 0 #bbb, -4px -4px 0 #fff, -7px -7px 0 #dedede;
     margin-left: 7px;
   }
 
@@ -304,9 +301,32 @@
     padding-left: 0;
   }
   .secondary-nav li, #secondary-nav li {
+    font-family: Spinnaker, Verdana, Arial, Helvetica;
     float: left;
     width: auto;
-    margin-right: 16px;
+    margin-right: 20px;
+  }
+  nav.top {
+    background-color: #387180;
+    font-family: Spinnaker, Verdana, Arial, Helvetica, sans-serif;
+  }
+  nav.top li:hover a {
+    color: #bfbbb5;
+  }
+  nav.top a:link, nav.top a:visited {
+    color: #fff;
+  }
+  nav.top a:active, nav.top a:hover, nav.top a:focus, nav.top a.open {
+    color: #bfbbb5;
+  }
+  nav.top .sub-nav {
+    background-color: #2796a9;
+  }
+  nav.top .sub-nav li > a:link, nav.top .sub-nav li > a:visited, nav.top .sub-nav li > a:active, nav.top .sub-nav li > a:hover, nav.top .sub-nav li > a:focus {
+    color: #fff;
+  }
+  nav.top .sub-nav li a:focus, nav.top .sub-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.15);
   }
 
   /* !---------- Pagination ---------- */
@@ -441,14 +461,17 @@
   }
 
   /* !---------- Header ---------- */
+  header {
+    background-color: #ffffff;
+  }
+    
   #site-title {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 32px;
     line-height: 48px;
     font-weight: 300;
     text-align: center;
     margin: 0;
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
   }
 
   #search-container {
@@ -479,6 +502,8 @@
     font-size: 0.875em;
     line-height: 1.71429em;
     padding-right: 3em;
+    border: 1px solid #387180;
+    background-color: #fff;
   }
   #search-form button {
     width: 2.25em;
@@ -515,7 +540,7 @@
     top: 0;
     right: 2.25em;
     line-height: 30px;
-    background-color: #4b6569;
+    background-color: #387180;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -635,9 +660,11 @@
     *behavior: url("../javascripts/boxsizing.htc");
     margin-bottom: 1.125em;
     *zoom: 1;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   #content > div > *:only-child, #content section > *:only-child {
-    margin-top: 0;
+    margin-top: 20px;
   }
   #content > div:after, #content section:after {
     content: "";
@@ -1189,6 +1216,8 @@
   .exhibits #content .navigation {
     padding-left: 0;
     *zoom: 1;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   .exhibits #content .navigation:after {
     content: "";
@@ -1206,6 +1235,7 @@
   }
   .exhibits .exhibit-page {
     font-weight: bold;
+      background-color: #dadada;
   }
   .exhibits.summary #content #primary > div {
     background-color: transparent;
@@ -1271,7 +1301,7 @@
   }
   .exhibits.show #content #exhibit-page-navigation > div {
     padding: 0;
-    width: 100%;
+    width: 50%;
     text-align: center;
   }
   .exhibits.show #content #exhibit-page-navigation #exhibit-nav-next {
@@ -1285,48 +1315,58 @@
     padding-left: 0;
     clear: both;
   }
+    .exhibit-page-nav > li:nth-of-type(n+3) {
+        clear:both;
+    }
+    
+    .exhibit-nav-level-1 > li {
+        background-color: #fff;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
   .exhibits.show #content .exhibit-page-nav .current, .exhibits.show #content .exhibit-child-nav .current {
     font-weight: bold;
   }
-  .exhibits.show #content .exhibit-page-nav {
+  .exhibits.show #content .exhibit-page-nav .exhibit-child-nav {
     -moz-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 0 0 10px;
     margin-bottom: 1.5em;
   }
-  .exhibits.show #content .exhibit-page-nav a {
+  .exhibits.show #content .exhibit-page-nav .exhibit-child-nav a {
     padding: 0;
     vertical-align: bottom;
   }
-  .exhibits.show #content .exhibit-page-nav > li:nth-child(2) {
+  .exhibits.show #content .exhibit-page-nav .exhibit-child-nav > li:nth-child(2) {
     background-color: rgba(0, 0, 0, 0.1);
     max-width: none;
   }
-  .exhibits.show #content .exhibit-page-nav > li:nth-child(3) {
+  .exhibits.show #content .exhibit-page-nav .exhibit-child-nav > li:nth-child(3) {
     background-color: rgba(0, 0, 0, 0.2);
     max-width: none;
   }
-  .exhibits.show #content .exhibit-page-nav > li:nth-child(4) {
+  .exhibits.show #content .exhibit-page-nav .exhibit-child-nav > li:nth-child(4) {
     background-color: rgba(0, 0, 0, 0.3);
     max-width: none;
   }
-  .exhibits.show #content .exhibit-page-nav > li {
+  .exhibits.show #content .exhibit-page-nav .exhibit-child-nav > li {
     display: block;
     float: none;
     overflow: hidden;
     margin-right: 0;
   }
   .exhibits.show #content .exhibit-page-nav > li:first-of-type {
-    text-transform: uppercase;
-    padding: 0.375em 8px;
+    text-transform: none;
+    padding: 0;
   }
   .exhibits.show #content .exhibit-page-nav > li:first-of-type a:after {
     content: ":";
   }
-  .exhibits.show #content .exhibit-page-nav > li ul {
+  .exhibits.show #content .exhibit-page-nav .exhibit-child-nav > li ul {
     padding-left: 0;
   }
-  .exhibits.show #content .exhibit-page-nav > li ul li {
+  .exhibits.show #content .exhibit-page-nav .exhibit-child-nav > li ul li {
     display: inline-block;
     padding: 0.375em 8px;
     width: auto;
@@ -1341,7 +1381,11 @@
   #content .gallery {
     padding-bottom: 0;
   }
-
+  
+    .exhibit-title {
+        display: none;
+    }
+    
   #exhibit-pages:not(.full) {
     border-style: solid;
     border-width: 10px 0 0 0;
@@ -1394,13 +1438,34 @@
     overflow: hidden;
   }
 
+  .layout-text {
+    margin: 20px 30px 20px 30px;
+  }
+    
   .exhibit-block > *:last-child {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
   .exhibit-item .exhibit-item-link img {
     width: 100%;
   }
+    
+    .exhibit-item-caption {
+        margin-top: 10px;
+        clear:both;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+    .exhibit-item-caption p {
+        margin: 0 0 0 0;
+        clear: both;
+    }
+    
+    .exhibit-item-caption div {
+        margin: 0 0 0 0;
+        clear: both;
+    }
 
   /* !---------- Simple Pages ---------- */
   .simple-pages-navigation {
@@ -1434,42 +1499,68 @@
   }
 
   /* !---------- Consortium Styles ---------- */
+  
+  /* ======= Set Basic Consortium Colors ======= */
+/* USE SEARCH AND REPLACE TO CHANGE COLORS THROUGHOUT THIS SECTION */
+
+/* #FFFFFF - background-color: header */
+/* #FFF7EC - background-color: body, footer, search, bottom gradient */
+/* #D9E3EB - background top gradient, search box background */
+/* #262626 - A, P, TD, H1, HR, LI, Site-title, body, Footer, some pagination */
+/* #387180 - buttons, nav-top, hyperlinks, borders, content H1, pagination, search results th */
+/* #BFBBB5 - hover/active/focus hyperlinks, body and nav-top */
+/* #FFF    - nav.top text, intro text, div, pagination, filters background */
+/* #2796A9 - sub.nav background */
+/* #DFE2E2 - item-img border, page content border */
+
+/* these from original HVVACC home not used */
+/* #CCB375 - TABLE-Outline */
+/* #EBDFC7 - .Form-Input, .Form-Submit, Table-Light */
+/* #CEDDE7 - .ContentHome */
+/* #D4BE89 - .Menu2 */
+
+/* other colors considered for consortium */
+/* #4B6569 -  */
+/* #859ca2 -  */
+
   .consortium body {
     background-color: #fff7ec;
-    color: #387180;
+    color: #262626;
   }
   .consortium h1, .consortium #site-title a {
-    color: #859ca2;
+    color: #262626;
   }
   .consortium input[type=submit], .consortium button, .consortium .button, .consortium .show-advanced.button {
-    background-color: #4b6569;
+    background-color: #387180;
   }
   .consortium input[type=text], .consortium input[type=password], .consortium textarea {
-    background-color: #dfe2e2;
+    background-color: #D9E3EB;
   }
   .consortium a:link {
-    color: #07a2bb;
+    color: #387180;
   }
   .consortium a:visited {
-    color: #7d949a;
+    color: #387180;
   }
   .consortium a:hover, .consortium a:active, .consortium a:focus {
     color: #bfbbb5;
   }
   .consortium header {
-    background-color: #fff7ec;
+    background-color: #ffffff;
   }
+  
+  /* commenting out individual styles for top navigation - see these in main nav above
   .consortium nav.top {
     background-color: #387180;
   }
   .consortium nav.top li:hover a {
-    color: #fff;
+    color: #bfbbb5;
   }
   .consortium nav.top a:link, .consortium nav.top a:visited {
     color: #fff;
   }
   .consortium nav.top a:active, .consortium nav.top a:hover, .consortium nav.top a:focus, .consortium nav.top a.open {
-    color: #fff;
+    color: #bfbbb5;
   }
   .consortium nav.top .sub-nav {
     background-color: #2796a9;
@@ -1480,65 +1571,71 @@
   .consortium nav.top .sub-nav li a:focus, .consortium nav.top .sub-nav li a:hover {
     background-color: rgba(0, 0, 0, 0.15);
   }
+  */
+  
   .consortium #intro {
     color: #fff;
   }
-  .consortium #content,
-  .consortium #secondary-nav .current a,
-  .consortium #secondary-nav a.current,
-  .consortium .secondary-nav .current a,
-  .consortium .secondary-nav a.current,
-  .consortium .exhibit-section-nav .current a {
+  .consortium #content {
     background: #fff7ec; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#d9e3eb, #fff7ec); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#d9e3eb, #fff7ec); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#d9e3eb, #fff7ec); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#d9e3eb, #fff7ec); /* Standard syntax */
-}
+  }
   .consortium #home #content > div {
-    border-color: #4b6569;
+    border-color: #387180;
   }
   .consortium #content > h1 {
-    color: #fff;
+    color: #387180;
+    max-width: 1080px;
   }
   .consortium #content h2 {
-    border-color: #dfe2e2;
+    border-color: #387180;
   }
   .consortium #content div {
-    border-color: #859ca2;
+    border-color: #387180;
   }
   .consortium #content > div, .consortium #content #primary > div, .consortium #content #sidebar > div,
   .consortium #content #advanced-search-form > div, .consortium #content #exhibit-pages {
-    border-color: #4b6569;
+    border-color: #387180;
+    max-width: 1080px;
   }
+    
+  .consortium #content > div {
+    margin: 10px 0px 10px 0px;
+  }
+    
   .consortium #content #primary > div, .consortium #content #sidebar > div {
     background-color: #fff;
   }
   .consortium #content .pagination_previous a, .consortium #content .pagination_next a {
-    background-color: #4b6569;
+    background-color: #fff;
   }
   .consortium #content .pagination {
-    color: #fff;
+    color: #262626;
   }
   .consortium #content .pagination a:link, .consortium #content .pagination a:visited {
-    color: #def9ff;
+    color: #262626;
   }
   .consortium #content .pagination a:hover, .consortium #content .pagination a:active {
-    color: #fff;
+    color: #387180;
   }
   .consortium #content .pagination input[type=text] {
-    border-color: #dfe2e2;
+    border-color: #387180;
     background-color: #fff;
   }
   .consortium #content nav .pagination_list {
-    background-color: #228494;
+    background-color: #fff;
   }
   .consortium #content .items-nav, .consortium #content .secondary-nav,
   .consortium #content #secondary-nav,
   .consortium #content #outputs,
   .consortium #content #exhibit-child-pages,
   .consortium #content #login-links a {
-    color: #fff;
+    color: #262626;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   .consortium #content .items-nav a:link, .consortium #content .items-nav a:visited, .consortium #content .secondary-nav a:link, .consortium #content .secondary-nav a:visited,
   .consortium #content #secondary-nav a:link,
@@ -1549,7 +1646,7 @@
   .consortium #content #exhibit-child-pages a:visited,
   .consortium #content #login-links a a:link,
   .consortium #content #login-links a a:visited {
-    color: #def9ff;
+    color: #387180;
   }
   .consortium #content .items-nav a:hover, .consortium #content .items-nav a:active, .consortium #content .secondary-nav a:hover, .consortium #content .secondary-nav a:active,
   .consortium #content #secondary-nav a:hover,
@@ -1560,7 +1657,7 @@
   .consortium #content #exhibit-child-pages a:active,
   .consortium #content #login-links a a:hover,
   .consortium #content #login-links a a:active {
-    color: #fff;
+    color: #bfbbb5;
   }
   .consortium #content .item-img {
     border-color: #dfe2e2;
@@ -1573,74 +1670,308 @@
     box-shadow: transparent 0 0 0;
   }
   .consortium #search-results th {
-    background-color: #4b6569;
+    background-color: #387180;
   }
   .consortium #search-filters li, .consortium #item-filters li {
-    background-color: #def9ff;
+    background-color: #fff;
   }
   .consortium .page #content {
-    border-color: #4b6569;
+    border-color: #dfe2e2;
   }
   .consortium footer {
     background-color: #fff7ec;
   }
   .consortium footer p {
+    color: #262626;
+  }
+  .consortium .exhibit-page-nav, .consortium .exhibit-child-nav {
+    background-color: rgba(0, 0, 0, 0);
+  }
+ 
+  .consortium .exhibit-page-nav a:link, .consortium .exhibit-page-nav a:visited, .consortium .exhibit-child-nav a:link, .consortium .exhibit-child-nav a:visited {
     color: #387180;
   }
-  .consortium .exhibit-page-nav {
-    background-color: #4b6569;
-  }
-  .consortium .exhibit-page-nav .current, .consortium .exhibit-child-nav .current {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  .consortium .exhibit-page-nav a:link, .consortium .exhibit-page-nav a:visited {
-    color: #def9ff;
-  }
-  .consortium .exhibit-page-nav a:hover, .consortium .exhibit-page-nav a:active {
-    color: #fff;
+  .consortium .exhibit-page-nav a:hover, .consortium .exhibit-page-nav a:active, .consortium .exhibit-child-nav a:hover, .consortium .exhibit-child-nav a:active {
+    color: #BFBBB5;
   }
   .consortium #exhibit-page-navigation a, .consortium #exhibit-page-navigation span {
     background-color: #fff;
   }
+    
+  .consortium .exhibit-page-nav .current, .consortium .exhibit-child-nav .current {
+    background-color: rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+  }
+ 
+    
+ /* !---------- HVVACC Styles ---------- */
+  
+  /* ======= Set Basic HVVACC Colors ======= */
+/* USE SEARCH AND REPLACE TO CHANGE COLORS THROUGHOUT THIS SECTION */
 
-  /* !---------- Linking Styles ---------- */
-  .linking body {
-    background-color: #fff;
-    color: #000;
-    font-family: 'Raleway', sans-serif;
+/* #FFFFFF - background-color: header */
+/* #D9E3EB - background-color: body, footer, search, bottom gradient */
+/* #FFF7EC - background top gradient, search box background */
+/* #262626 - A, P, TD, H1, HR, LI, Site-title, body, Footer, some pagination */
+/* #1450FS - buttons, nav-top, hyperlinks, borders, content H1, pagination, search results th */
+/* #BFBBB5 - hover/active/focus hyperlinks, body and nav-top */
+/* #FFF    - nav.top text, intro text, div, pagination, filters background */
+/* #2796A9 - sub.nav background */
+/* #DFE2E2 - item-img border, page content border */
+
+  .hvvacc body {
+    background-color: #D9E3EB;
+    color: #262626;
   }
-  .linking h1, .linking #site-title a {
-    color: #859ca2;
+  .hvvacc h1, .hvvacc #site-title a {
+    color: #262626;
   }
-  .linking input[type=submit], .linking button, .linking .button, .linking .show-advanced.button {
-    background-color: #4b6569;
+  .hvvacc input[type=submit], .hvvacc button, .hvvacc .button, .hvvacc .show-advanced.button {
+    background-color: #1450FS;
   }
-  .linking input[type=text], .linking input[type=password], .linking textarea {
-    background-color: #dfe2e2;
+  .hvvacc input[type=text], .hvvacc input[type=password], .hvvacc textarea {
+    background-color: #FFF7EC;
   }
-  .linking a:link {
-    color: #07a2bb;
+  .hvvacc a:link {
+    color: #1450FS;
   }
-  .linking a:visited {
-    color: #7d949a;
+  .hvvacc a:visited {
+    color: #1450FS;
   }
-  .linking a:hover, .linking a:active, .linking a:focus {
+  .hvvacc a:hover, .hvvacc a:active, .hvvacc a:focus {
     color: #bfbbb5;
   }
-  .linking header {
-    background-color: #fff7ec;
+  .hvvacc header {
+    background-color: #ffffff;
   }
+  
+  /* commenting out individual styles for top navigation - see these in main nav above
+  .hvvacc nav.top {
+    background-color: #1450FS;
+  }
+  .hvvacc nav.top li:hover a {
+    color: #bfbbb5;
+  }
+  .hvvacc nav.top a:link, .hvvacc nav.top a:visited {
+    color: #fff;
+  }
+  .hvvacc nav.top a:active, .hvvacc nav.top a:hover, .hvvacc nav.top a:focus, .hvvacc nav.top a.open {
+    color: #bfbbb5;
+  }
+  .hvvacc nav.top .sub-nav {
+    background-color: #2796a9;
+  }
+  .hvvacc nav.top .sub-nav li > a:link, .hvvacc nav.top .sub-nav li > a:visited, .hvvacc nav.top .sub-nav li > a:active, .hvvacc nav.top .sub-nav li > a:hover, .hvvacc nav.top .sub-nav li > a:focus {
+    color: #fff;
+  }
+  .hvvacc nav.top .sub-nav li a:focus, .hvvacc nav.top .sub-nav li a:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+  }
+  */
+  
+  .hvvacc #intro {
+    color: #fff;
+  }
+  .hvvacc #content {
+    background: #D9E3EB; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFF7EC, #D9E3EB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFF7EC, #D9E3EB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFF7EC, #D9E3EB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFF7EC, #D9E3EB); /* Standard syntax */
+  }
+  .hvvacc #home #content > div {
+    border-color: #1450FS;
+  }
+  .hvvacc #content > h1 {
+    color: #1450FS;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .hvvacc #content h2 {
+    border-color: #1450FS;
+  }
+  .hvvacc #content div {
+    border-color: #1450FS;
+  }
+  .hvvacc #content > div, .hvvacc #content #primary > div, .hvvacc #content #sidebar > div,
+  .hvvacc #content #advanced-search-form > div, .hvvacc #content #exhibit-pages {
+    border-color: #1450FS;
+    max-width: 1080px;
+    margin: 0px auto;
+  }
+    
+  .hvvacc #content > div {
+    margin: 10px auto;
+  }
+    
+  .hvvacc #content #primary > div, .hvvacc #content #sidebar > div {
+    background-color: #fff;
+  }
+  .hvvacc #content .pagination_previous a, .hvvacc #content .pagination_next a {
+    background-color: #fff;
+  }
+  .hvvacc #content .pagination {
+    color: #262626;
+  }
+  .hvvacc #content .pagination a:link, .hvvacc #content .pagination a:visited {
+    color: #262626;
+  }
+  .hvvacc #content .pagination a:hover, .hvvacc #content .pagination a:active {
+    color: #1450FS;
+  }
+  .hvvacc #content .pagination input[type=text] {
+    border-color: #1450FS;
+    background-color: #fff;
+  }
+  .hvvacc #content nav .pagination_list {
+    background-color: #fff;
+  }
+  .hvvacc #content .items-nav, .hvvacc #content .secondary-nav,
+  .hvvacc #content #secondary-nav,
+  .hvvacc #content #outputs,
+  .hvvacc #content #exhibit-child-pages,
+  .hvvacc #content #login-links a {
+    color: #262626;
+    max-width: 1080px;
+    margin: 0 auto;
+  }
+  .hvvacc #content .items-nav a:link, .hvvacc #content .items-nav a:visited, .hvvacc #content .secondary-nav a:link, .hvvacc #content .secondary-nav a:visited,
+  .hvvacc #content #secondary-nav a:link,
+  .hvvacc #content #secondary-nav a:visited,
+  .hvvacc #content #outputs a:link,
+  .hvvacc #content #outputs a:visited,
+  .hvvacc #content #exhibit-child-pages a:link,
+  .hvvacc #content #exhibit-child-pages a:visited,
+  .hvvacc #content #login-links a a:link,
+  .hvvacc #content #login-links a a:visited {
+    color: #1450FS;
+  }
+  .hvvacc #content .items-nav a:hover, .hvvacc #content .items-nav a:active, .hvvacc #content .secondary-nav a:hover, .hvvacc #content .secondary-nav a:active,
+  .hvvacc #content #secondary-nav a:hover,
+  .hvvacc #content #secondary-nav a:active,
+  .hvvacc #content #outputs a:hover,
+  .hvvacc #content #outputs a:active,
+  .hvvacc #content #exhibit-child-pages a:hover,
+  .hvvacc #content #exhibit-child-pages a:active,
+  .hvvacc #content #login-links a a:hover,
+  .hvvacc #content #login-links a a:active {
+    color: #bfbbb5;
+  }
+  .hvvacc #content .item-img {
+    border-color: #dfe2e2;
+  }
+  .hvvacc #content div.hTagcloud {
+    border: 0;
+    background-color: transparent;
+    -moz-box-shadow: transparent 0 0 0;
+    -webkit-box-shadow: transparent 0 0 0;
+    box-shadow: transparent 0 0 0;
+  }
+  .hvvacc #search-results th {
+    background-color: #1450FS;
+  }
+  .hvvacc #search-filters li, .hvvacc #item-filters li {
+    background-color: #fff;
+  }
+  .hvvacc .page #content {
+    border-color: #dfe2e2;
+  }
+  .hvvacc footer {
+    background-color: #D9E3EB;
+  }
+  .hvvacc footer p {
+    color: #262626;
+  }
+  .hvvacc .exhibit-page-nav, .hvvacc .exhibit-child-nav {
+    background-color: rgba(0, 0, 0, 0);
+  }
+ 
+  .hvvacc .exhibit-page-nav a:link, .hvvacc .exhibit-page-nav a:visited, .hvvacc .exhibit-child-nav a:link, .hvvacc .exhibit-child-nav a:visited {
+    color: #1450FS;
+  }
+  .hvvacc .exhibit-page-nav a:hover, .hvvacc .exhibit-page-nav a:active, .hvvacc .exhibit-child-nav a:hover, .hvvacc .exhibit-child-nav a:active {
+    color: #BFBBB5;
+  }
+  .hvvacc #exhibit-page-navigation a, .hvvacc #exhibit-page-navigation span {
+    background-color: #fff;
+  }
+    
+  .hvvacc .exhibit-page-nav .current, .hvvacc .exhibit-child-nav .current {
+    background-color: rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+  }
+ 
+    
+
+  /* !---------- Linking Styles ---------- */
+  
+  /* ======= Set Basic linking Colors ======= */
+/* USE SEARCH AND REPLACE TO CHANGE COLORS THROUGHOUT THIS SECTION */
+
+/* #bfc0c0 - background-color: body, header, footer, search, bottom gradient */
+/* #D8d9da - background top gradient, search box background */
+/* #262626 - A, P, TD, H1, HR, LI, Site-title, body, Footer, some pagination */
+/* #00a5d9 - buttons, nav-top, hyperlinks, borders, content H1, pagination, search results th */
+/* #5a5a5a - hover/active/focus hyperlinks, body and nav-top */
+/* #FFF    - nav.top text, intro text, div, pagination, filters background */
+/* #2796A9 - sub.nav background */
+/* #DFE2E2 - item-img border, page content border */
+
+/* other colors considered for linking */
+/* #4B6569 -  */
+/* #859ca2 -  */
+/* neutrals - #F6f1cd */
+/* #e7e1d5 */
+/* #C2d1d4 */
+/* #D8d9da */
+/* #Bbb0a6 */
+/* #a9c398 */
+/* highlights - #fdb924 */
+/* #B0bc22 */
+/* #A84d10 */
+/* #80a1b6 */
+/* #00a5d9 */
+/* #f26649 */
+
+
+
+  .linking body {
+    background-color: #bfc0c0;
+    color: #262626;
+  }
+  .linking h1, .linking #site-title a {
+    color: #262626;
+  }
+
+  .linking input[type=text], .linking input[type=password], .linking textarea {
+    background-color: #D8d9da;
+  }
+  .linking a:link {
+    color: #00a5d9;
+  }
+  .linking a:visited {
+    color: #00a5d9;
+  }
+  .linking a:hover, .linking a:active, .linking a:focus {
+    color: #5a5a5a;
+  }
+  
+  /* commenting out individual styles for top navigation - see these in main nav above
   .linking nav.top {
     background-color: #387180;
   }
   .linking nav.top li:hover a {
-    color: #fff;
+    color: #bfbbb5;
   }
   .linking nav.top a:link, .linking nav.top a:visited {
     color: #fff;
   }
   .linking nav.top a:active, .linking nav.top a:hover, .linking nav.top a:focus, .linking nav.top a.open {
-    color: #fff;
+    color: #bfbbb5;
   }
   .linking nav.top .sub-nav {
     background-color: #2796a9;
@@ -1651,63 +1982,73 @@
   .linking nav.top .sub-nav li a:focus, .linking nav.top .sub-nav li a:hover {
     background-color: rgba(0, 0, 0, 0.15);
   }
+  */
+  
   .linking #intro {
     color: #fff;
   }
-  .linking #content,
-  .linking #secondary-nav .current a,
-  .linking #secondary-nav a.current,
-  .linking .secondary-nav .current a,
-  .linking .secondary-nav a.current,
-  .linking .exhibit-section-nav .current a {
-    background: #fff7ec; /* For browsers that do not support gradients */
-    background: url("../images/greysquares2.jpg");
-}
+  .linking #content {
+    background: #D8d9da; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#D8d9da, #bfc0c0  ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#D8d9da, #bfc0c0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#D8d9da, #bfc0c0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#D8d9da, #bfc0c0); /* Standard syntax */
+  }
   .linking #home #content > div {
-    border-color: #4b6569;
+    border-color: #00a5d9;
   }
   .linking #content > h1 {
-    color: #00a3c8;
-    text-transform:  none;
+    color: #00a5d9;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   .linking #content h2 {
-    border-color: #dfe2e2;
+    border-color: #00a5d9;
   }
   .linking #content div {
-    border-color: #859ca2;
+    border-color: #00a5d9;
   }
   .linking #content > div, .linking #content #primary > div, .linking #content #sidebar > div,
   .linking #content #advanced-search-form > div, .linking #content #exhibit-pages {
-    border-color: #4b6569;
+    border-color: #00a5d9;
+    max-width: 1080px;
+    margin: 0px auto;
   }
+    
+  .linking #content > div {
+    margin: 10px auto;
+  }
+    
   .linking #content #primary > div, .linking #content #sidebar > div {
     background-color: #fff;
   }
   .linking #content .pagination_previous a, .linking #content .pagination_next a {
-    background-color: #4b6569;
+    background-color: #fff;
   }
   .linking #content .pagination {
-    color: #fff;
+    color: #262626;
   }
   .linking #content .pagination a:link, .linking #content .pagination a:visited {
-    color: #def9ff;
+    color: #262626;
   }
   .linking #content .pagination a:hover, .linking #content .pagination a:active {
-    color: #fff;
+    color: #00a5d9;
   }
   .linking #content .pagination input[type=text] {
-    border-color: #dfe2e2;
+    border-color: #00a5d9;
     background-color: #fff;
   }
   .linking #content nav .pagination_list {
-    background-color: #228494;
+    background-color: #fff;
   }
   .linking #content .items-nav, .linking #content .secondary-nav,
   .linking #content #secondary-nav,
   .linking #content #outputs,
   .linking #content #exhibit-child-pages,
   .linking #content #login-links a {
-    color: #fff;
+    color: #262626;
+    max-width: 1080px;
+    margin: 0 auto;
   }
   .linking #content .items-nav a:link, .linking #content .items-nav a:visited, .linking #content .secondary-nav a:link, .linking #content .secondary-nav a:visited,
   .linking #content #secondary-nav a:link,
@@ -1718,7 +2059,7 @@
   .linking #content #exhibit-child-pages a:visited,
   .linking #content #login-links a a:link,
   .linking #content #login-links a a:visited {
-    color: #def9ff;
+    color: #00a5d9;
   }
   .linking #content .items-nav a:hover, .linking #content .items-nav a:active, .linking #content .secondary-nav a:hover, .linking #content .secondary-nav a:active,
   .linking #content #secondary-nav a:hover,
@@ -1729,7 +2070,7 @@
   .linking #content #exhibit-child-pages a:active,
   .linking #content #login-links a a:hover,
   .linking #content #login-links a a:active {
-    color: #fff;
+    color: #5a5a5a;
   }
   .linking #content .item-img {
     border-color: #dfe2e2;
@@ -1742,495 +2083,38 @@
     box-shadow: transparent 0 0 0;
   }
   .linking #search-results th {
-    background-color: #4b6569;
+    background-color: #00a5d9;
   }
   .linking #search-filters li, .linking #item-filters li {
-    background-color: #def9ff;
+    background-color: #fff;
   }
   .linking .page #content {
-    border-color: #4b6569;
+    border-color: #dfe2e2;
   }
-  .linking footer {
-    background-color: #fff7ec;
+  
+  .linking .exhibit-page-nav, .linking .exhibit-child-nav {
+    background-color: rgba(0, 0, 0, 0);
   }
-  .linking footer p {
-    color: #387180;
+ 
+  .linking .exhibit-page-nav a:link, .linking .exhibit-page-nav a:visited, .linking .exhibit-child-nav a:link, .linking .exhibit-child-nav a:visited {
+    color: #00a5d9;
   }
-  .linking .exhibit-page-nav {
-    background-color: #4b6569;
-  }
-  .linking .exhibit-page-nav .current, .linking .exhibit-child-nav .current {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  .linking .exhibit-page-nav a:link, .linking .exhibit-page-nav a:visited {
-    color: #def9ff;
-  }
-  .linking .exhibit-page-nav a:hover, .linking .exhibit-page-nav a:active {
-    color: #fff;
+  .linking .exhibit-page-nav a:hover, .linking .exhibit-page-nav a:active, .linking .exhibit-child-nav a:hover, .linking .exhibit-child-nav a:active {
+    color: #5a5a5a;
   }
   .linking #exhibit-page-navigation a, .linking #exhibit-page-navigation span {
     background-color: #fff;
   }
-
-  /* !---------- Summer Styles ---------- */
-  .summer body {
-    background-color: #3C8F8C;
-    color: #6A7E88;
-  }
-  .summer h1, .summer #site-title a {
-    color: #13BBBB;
-  }
-  .summer input[type=submit], .summer button, .summer .button, .summer .show-advanced.button {
-    background-color: #8ECAC8;
-  }
-  .summer input[type=text], .summer input[type=password], .summer textarea {
-    background-color: #D0EEEE;
-    color: #13BBBB;
-  }
-  .summer a:link {
-    color: #EB4C0F;
-  }
-  .summer a:visited {
-    color: #F09999;
-  }
-  .summer a:hover, .summer a:active, .summer a:focus {
-    color: #FF0000;
-  }
-  .summer header {
-    background-color: #fff;
-  }
-  .summer nav.top {
-    background-color: #FCF283;
-  }
-  .summer nav.top li:hover a {
-    color: #3C8F8C;
-  }
-  .summer nav.top a:link, .summer nav.top a:visited {
-    color: #13BBBB;
-  }
-  .summer nav.top a:active, .summer nav.top a:hover {
-    color: #3C8F8C;
-  }
-  .summer nav.top .nav-item > a:focus,
-  .summer nav.top .nav-item > a:hover,
-  .summer nav.top .nav-item > a.open {
-    background-color: rgba(0, 0, 0, 0.05);
-  }
-  .summer nav.top .sub-nav {
-    background-color: #FCF283;
-  }
-  .summer nav.top .sub-nav li > a:link, .summer nav.top .sub-nav li > a:visited {
-    color: #13BBBB;
-  }
-  .summer nav.top .sub-nav li > a:hover {
-    color: #3C8F8C;
-  }
-  .summer nav.top .sub-nav a:hover {
-    color: #3C8F8C;
-    background-color: rgba(0, 0, 0, 0.025);
-  }
-  .summer #top-nav a:focus {
-    color: #3C8F8C;
-  }
-  .summer #intro {
-    color: #EB4C0F;
-  }
-  .summer #content,
-  .summer #secondary-nav .current a,
-  .summer #secondary-nav a.current,
-  .summer .secondary-nav .current a,
-  .summer .secondary-nav a.current,
-  .summer .exhibit-section-nav .current a {
-    background-color: #FDFFE2;
-  }
-  .summer #home #content > div {
-    border-color: #8ECAC8;
-  }
-  .summer #item h1 {
-    color: #EB4C0F;
-  }
-  .summer #content > h1 {
-    color: #EB4C0F;
-  }
-  .summer #content h2 {
-    border-color: #ffe0e0;
-  }
-  .summer #content > div, .summer #content #primary > div, .summer #content #sidebar > div,
-  .summer #content #advanced-search-form > div, .summer #content #exhibit-pages {
-    border-color: #8ECAC8;
-  }
-  .summer #content #primary > div, .summer #content #sidebar > div {
-    background-color: #fff;
-  }
-  .summer #content .pagination_previous a, .summer #content .pagination_next a {
-    background-color: #8ECAC8;
-  }
-  .summer #content .pagination a:link, .summer #content .pagination a:visited {
-    color: #D0EEEE;
-  }
-  .summer #content .pagination a:hover, .summer #content .pagination a:active {
-    color: #fff;
-  }
-  .summer #content .pagination input[type=text] {
-    border-color: #D0EEEE;
-  }
-  .summer #content nav .pagination_list {
-    background-color: #8ECAC8;
-  }
-  .summer #content .items-nav a:link, .summer #content .items-nav a:visited {
-    color: #EB4C0F;
-  }
-  .summer #content .items-nav a:active, .summer #content .items-nav a:hover {
-    color: #FF0000;
-  }
-  .summer #content .item-img {
-    border-color: #D0EEEE;
-  }
-  .summer #content div.hTagcloud {
-    border: 0;
-    background-color: transparent;
-    -moz-box-shadow: transparent 0 0 0;
-    -webkit-box-shadow: transparent 0 0 0;
-    box-shadow: transparent 0 0 0;
-  }
-  .summer #search-results th {
-    background-color: #8ECAC8;
-  }
-  .summer #search-filters li, .summer #item-filters li {
-    background-color: #fff;
-  }
-  .summer .page #content {
-    border-color: #8ECAC8;
-  }
-  .summer footer {
-    background-color: #3C8F8C;
-  }
-  .summer footer p {
-    color: #fff;
-  }
-  .summer .exhibit-page-nav {
-    background-color: #8ECAC8;
-  }
-  .summer .exhibit-page-nav .current, .summer .exhibit-child-nav .current {
+    
+  .linking .exhibit-page-nav .current, .linking .exhibit-child-nav .current {
     background-color: rgba(0, 0, 0, 0.1);
-  }
-  .summer .exhibit-page-nav a:link, .summer .exhibit-page-nav a:visited {
-    color: #FCF283;
-  }
-  .summer .exhibit-page-nav a:hover, .summer .exhibit-page-nav a:active {
-    color: #fff;
-  }
-  .summer #exhibit-page-navigation a, .summer #exhibit-page-navigation span {
-    background-color: #fff;
-  }
-  .summer th, .summer td {
-    border-color: #D0EEEE;
-  }
-
-  /* !---------- Autumn Styles ---------- */
-  .autumn body {
-    background-color: #86443C;
-    color: #86443C;
-  }
-  .autumn h1, .autumn #site-title a {
-    color: #F8F1E5;
-  }
-  .autumn input[type=submit], .autumn button, .autumn .button, .autumn .show-advanced.button {
-    background-color: #86443C;
-  }
-  .autumn input[type=text], .autumn input[type=password], .autumn textarea {
-    background-color: #F8F1E5;
-    color: #815442;
-  }
-  .autumn a:link {
-    color: #FFA300;
-  }
-  .autumn a:visited {
-    color: #E2B76B;
-  }
-  .autumn a:hover, .autumn a:active, .autumn a:focus {
-    color: #F16100;
-  }
-  .autumn header {
-    background-color: #CE6C3E;
-  }
-  .autumn nav.top {
-    background-color: #CABFA6;
-  }
-  .autumn nav.top li:hover a {
-    color: #fff;
-  }
-  .autumn nav.top a:link, .autumn nav.top a:visited {
-    color: #BE5E5E;
-  }
-  .autumn nav.top a:active, .autumn nav.top a:hover, .autumn nav.top a.open {
-    color: #fff;
-  }
-  .autumn nav.top .sub-nav {
-    background-color: #CABFA6;
-  }
-  .autumn nav.top .sub-nav li > a:link, .autumn nav.top .sub-nav li > a:visited {
-    color: #BE5E5E;
-  }
-  .autumn nav.top .sub-nav li > a:hover {
-    color: #fff;
-  }
-  .autumn nav.top .sub-nav .sub-nav a:hover {
-    color: #fff;
-  }
-  .autumn #top-nav a:focus {
-    color: #fff;
-  }
-  .autumn #intro {
-    color: #815442;
-  }
-  .autumn #content,
-  .autumn #secondary-nav .current a,
-  .autumn #secondary-nav a.current,
-  .autumn .secondary-nav .current a,
-  .autumn .secondary-nav a.current,
-  .autumn .exhibit-section-nav .current a {
-    background-color: #F8F1E5;
-  }
-  .autumn #home #content > div {
-    border-color: #CABFA6;
-  }
-  .autumn #content > h1 {
-    color: #815442;
-  }
-  .autumn #content h2 {
-    border-color: #ECEBE6;
-  }
-  .autumn #content #primary > div, .autumn #content #sidebar > div {
-    background-color: #fff;
-  }
-  .autumn #content #primary > h1 {
-    color: #815442;
-  }
-  .autumn #content > div, .autumn #content #primary > div, .autumn #content #sidebar > div,
-  .autumn #content #advanced-search-form > div, .autumn #content #exhibit-pages {
-    border-color: #CABFA6;
-  }
-  .autumn #content .pagination_previous a, .autumn #content .pagination_next a {
-    background-color: #86443C;
-  }
-  .autumn #content .pagination input[type=text] {
-    border-color: #fff;
-    background-color: #fff;
-  }
-  .autumn #content nav .pagination_list {
-    background-color: #86443C;
-  }
-  .autumn #content .item-img {
-    border-color: #ECEBE6;
-  }
-  .autumn #content div.hTagcloud {
-    border: 0;
-    background-color: transparent;
-    -moz-box-shadow: transparent 0 0 0;
-    -webkit-box-shadow: transparent 0 0 0;
-    box-shadow: transparent 0 0 0;
-  }
-  .autumn #search-results th {
-    background-color: #CABFA6;
-  }
-  .autumn #search-filters li, .autumn #item-filters li {
-    background-color: #fff;
-  }
-  .autumn .page #content {
-    border-color: #CABFA6;
-  }
-  .autumn footer {
-    background-color: #86443C;
-  }
-  .autumn footer p {
-    color: #fff;
-  }
-  .autumn .exhibit-page-nav {
-    background-color: #86443C;
-  }
-  .autumn .exhibit-page-nav .current, .autumn .exhibit-child-nav .current {
-    background-color: rgba(0, 0, 0, 0.1);
-  }
-  .autumn .exhibit-page-nav a:link, .autumn .exhibit-page-nav a:visited {
-    color: #CABFA6;
-  }
-  .autumn .exhibit-page-nav a:hover, .autumn .exhibit-page-nav a:active {
-    color: #fff;
-  }
-  .autumn #exhibit-page-navigation a, .autumn #exhibit-page-navigation span {
-    background-color: #fff;
-  }
-
-  /* !---------- Night Styles ---------- */
-  .night body {
-    background-color: #000;
-    color: #ccc;
-  }
-  .night h1 {
-    color: #BDBDBD;
-  }
-  .night #site-title a {
-    color: #FFE000;
-  }
-  .night input[type=submit], .night button, .night .button, .night .show-advanced.button {
-    background-color: #666;
-    color: #252525;
-  }
-  .night input[type=text], .night input[type=password], .night textarea {
-    background-color: #252525;
-    border: 1px solid #666;
-    color: #ccc;
-  }
-  .night a:link {
-    color: #FFE000;
-  }
-  .night a:visited {
-    color: #C0A900;
-  }
-  .night a:hover, .night a:active, .night a:focus {
-    color: #FFFFA0;
-  }
-  .night header {
-    background-color: #000;
-  }
-  .night nav.top {
-    background-color: #BDBDBD;
-  }
-  .night nav.top li:hover a {
-    color: #313131;
-  }
-  .night nav.top a:link, .night nav.top a:visited {
-    color: #6d6d6d;
-  }
-  .night nav.top a:focus, .night nav.top a.open {
-    color: #313131;
-  }
-  .night nav.top .sub-nav {
-    background-color: #666;
-  }
-  .night nav.top .sub-nav li > a:link, .night nav.top .sub-nav li > a:visited {
-    color: #FFE000;
-  }
-  .night nav.top .sub-nav li > a:active, .night nav.top .sub-nav li > a:hover, .night nav.top .sub-nav li > a:focus {
-    color: #FFFFA0;
-  }
-  .night #intro {
-    color: #BDBDBD;
-  }
-  .night #content,
-  .night #secondary-nav .current a,
-  .night #secondary-nav a.current,
-  .night .exhibit-section-nav .current a {
-    background-color: #333333;
-  }
-  .night #advanced-form {
-    background-color: #252525;
-    color: #ccc;
-    border-width: 0 1px 1px 1px;
-    border-style: solid;
-    border-color: #313131;
-  }
-  .night #home #content > div {
-    border-color: #666;
-  }
-  .night #home #content div .items-list .item {
-    border-top: 1px solid #313131;
-  }
-  .night #home #content div .items-list .item:first-of-type {
-    border-top: 0;
-  }
-  .night #home #content > div img, .night .items.show #itemfiles a,
-  .night #home #content .item, .night #home #content div .view-items-link,
-  .night .collections #content div .view-items-link {
-    border-color: #313131;
-  }
-  .night #content > h1 {
-    color: #BDBDBD;
-  }
-  .night #content h2 {
-    border-color: #313131;
-  }
-  .night #content > div, .night #content #primary > div, .night #content #sidebar > div,
-  .night #content #advanced-search-form > div, .night #content #exhibit-pages {
-    border-color: #666;
-    background-color: #252525;
-  }
-  .night #content #primary > div, .night #content #sidebar > div,
-  .night #content .item-pagination li {
-    background-color: #252525;
-  }
-  .night #content .pagination_previous a, .night #content .pagination_next a {
-    background-color: #252525;
-  }
-  .night #content nav .pagination_list {
-    background-color: #252525;
-  }
-  .night #content .pagination_previous a, .night #content .pagination_next a {
-    background-color: #252525;
-  }
-  .night #content .item-img {
-    border-color: #313131;
-  }
-  .night #content div.hTagcloud {
-    border: 0;
-    background-color: transparent;
-    -moz-box-shadow: transparent 0 0 0;
-    -webkit-box-shadow: transparent 0 0 0;
-    box-shadow: transparent 0 0 0;
-  }
-  .night .login #content form {
-    border-color: #666;
-    background-color: #252525;
-  }
-  .night #search-results th {
-    background-color: #666;
-    color: #BDBDBD;
-  }
-  .night #search-results td {
-    background-color: #252525;
-  }
-  .night #search-filters li, .night #item-filters li {
-    background-color: #666;
-  }
-  .night .page #content {
-    border-color: #666;
-  }
-  .night .page #primary {
-    background-color: #252525;
-  }
-  .night footer {
-    background-color: transparent;
-  }
-  .night footer p {
-    color: #ccc;
-  }
-  .night .exhibit-page-nav {
-    background-color: #252525;
-  }
-  .night .exhibit-page-nav .current, .night .exhibit-child-nav .current {
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-  .night #exhibit-page-navigation a, .night #exhibit-page-navigation span {
-    background-color: #252525;
-  }
-  .night .exhibits #exhibit-pages > ul > li:not(:last-of-type) {
-    border-color: #313131;
-  }
-  .night .exhibits.show #content .exhibit-page-nav > li:nth-child(3) {
-    background-color: rgba(255, 255, 255, 0.08);
-  }
-  .night .exhibits.tags #content p:only-of-type {
-    background-color: #252525;
-    border-color: #666;
-  }
-  .night #content div.hTagcloud ul li {
-    background-color: #252525;
-  }
-  .night td, .night th {
-    border-color: #333333;
-  }
-}
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+  }
+ 
+    
+  
 @media screen and (min-width: 768px) {
   /*
   Table of Contents
@@ -2293,6 +2177,7 @@
     z-index: 15;
   }
   nav.top .nav-item {
+    font-family: Spinnaker, Verdana, Arial;
     list-style: none;
     display: inline-block;
     padding: 0;
@@ -2521,11 +2406,11 @@
   .exhibits #exhibit-blocks,
   .exhibits #exhibit-page-navigation {
     width: 66.10169%;
-    float: left;
     margin-right: 1.69492%;
-    display: inline;
+    display: block;
     padding: 0 16px 1.5em;
   }
+    
   .exhibits #exhibit-pages:not(.full) {
     width: 32.20339%;
     display: inline-block;
@@ -2540,12 +2425,10 @@
   }
 
   .exhibits.show #content .exhibit-page-nav > li:first-child {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0);
     float: left;
   }
-  .exhibits.show #content .exhibit-page-nav > li:nth-child(2) li:first-of-type {
-    padding-left: 8px;
-  }
+    
   .exhibits.show #content #exhibit-page-navigation .exhibits-nav-prev {
     text-align: left;
   }
@@ -2554,7 +2437,7 @@
   }
   .exhibits.show #content #exhibit-page-navigation > div {
     padding: 0;
-    width: 33%;
+    width: 24%;
   }
   .exhibits.show #content #exhibit-page-navigation a, .exhibits.show #content #exhibit-page-navigation span {
     width: 100%;
