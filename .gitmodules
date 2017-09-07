@@ -1,3 +1,6 @@
 [submodule "plugins/MoreExhibitLayouts"]
 	path = plugins/MoreExhibitLayouts
 	url = https://github.com/ArdenKirkland/MoreExhibitLayouts.git
+[submodule "themes/consortium"]
+	path = themes/consortium
+	url = https://github.com/ArdenKirkland/consortium.git
