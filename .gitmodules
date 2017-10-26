@@ -4,3 +4,6 @@
 [submodule "themes/consortium"]
 	path = themes/consortium
 	url = https://github.com/ArdenKirkland/consortium.git
+[submodule "plugins/CdmLink"]
+	path = plugins/CdmLink
+	url = https://github.com/ArdenKirkland/CdmLink.git
