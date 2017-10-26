@@ -641,3 +641,13 @@ Stack trace:
 #24 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Application.php(77): Zend_Application->run()
 #25 /home/arkirkland/ardenkirkland.com/omekasandbox/index.php(23): Omeka_Application->run()
 #26 {main}
+2017-10-26T08:52:22-07:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/df263b81a7b6f4df019278da6f7fc589' @ error/constitute.c/ReadImage/544.
+convert: no images defined `/tmp/fullsize_df263b81a7b6f4df019278da6f7fc589.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2017-10-26T08:52:22-07:00 ERR (3): ImageMagick failed with status code 1.
+2017-10-26T09:59:48-07:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/32371fbf64687be7e4acc2fc75b8fe5b' @ error/constitute.c/ReadImage/544.
+convert: no images defined `/tmp/fullsize_32371fbf64687be7e4acc2fc75b8fe5b.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2017-10-26T09:59:48-07:00 ERR (3): ImageMagick failed with status code 1.
