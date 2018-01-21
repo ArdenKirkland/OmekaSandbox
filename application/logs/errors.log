@@ -651,3 +651,13 @@ convert: no decode delegate for this image format `/tmp/32371fbf64687be7e4acc2fc
 convert: no images defined `/tmp/fullsize_32371fbf64687be7e4acc2fc75b8fe5b.jpg' @ error/convert.c/ConvertImageCommand/3044.
 
 2017-10-26T09:59:48-07:00 ERR (3): ImageMagick failed with status code 1.
+2017-11-07T16:18:23-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/6a2f75a024c979e61c16db7005bfa7f5.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_6a2f75a024c979e61c16db7005bfa7f5.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2017-11-07T16:18:23-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T09:19:35-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/f53badfa0c7d4d7e4e0d73d05673b3c2.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_f53badfa0c7d4d7e4e0d73d05673b3c2.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T09:19:35-08:00 ERR (3): ImageMagick failed with status code 1.
