@@ -661,3 +661,382 @@ convert: insufficient image data in file `/tmp/f53badfa0c7d4d7e4e0d73d05673b3c2.
 convert: no images defined `/tmp/fullsize_f53badfa0c7d4d7e4e0d73d05673b3c2.jpg' @ error/convert.c/ConvertImageCommand/3044.
 
 2018-01-21T09:19:35-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T10:08:49-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/a6c59c15222795f53938b295b8519bc3.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_a6c59c15222795f53938b295b8519bc3.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T10:08:49-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T10:13:13-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/b38d597991e8d78a525c405fe359e77d.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_b38d597991e8d78a525c405fe359e77d.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T10:13:13-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T10:29:21-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/7ae06ac5340a00ca3ca349c02fc867b3.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_7ae06ac5340a00ca3ca349c02fc867b3.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T10:29:21-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T10:36:05-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/03a43f172e676b895706dbf18b568f0d.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_03a43f172e676b895706dbf18b568f0d.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T10:36:05-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T10:36:05-08:00 WARN (4): Error output from ImageMagick:
+convert: Cannot read TIFF header. `/tmp/3d1ba0a59290aa0bf9ce32c233a8a9c1.tiff' @ error/tiff.c/TIFFErrors/515.
+convert: no images defined `/tmp/fullsize_3d1ba0a59290aa0bf9ce32c233a8a9c1.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T10:36:05-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T10:36:05-08:00 WARN (4): Error output from ImageMagick:
+convert: Cannot read TIFF header. `/tmp/94bd16c9a3f41f524694e6f099a44595.tiff' @ error/tiff.c/TIFFErrors/515.
+convert: no images defined `/tmp/fullsize_94bd16c9a3f41f524694e6f099a44595.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T10:36:05-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T10:39:52-08:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(534): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/abc', '731')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-01-21T10:56:47-08:00 ERR (3): ImageMagick failed with status code 9.
+2018-01-21T10:56:53-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/d10f9882d4a21c4eab4c682a96ff2f9a.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_d10f9882d4a21c4eab4c682a96ff2f9a.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T10:56:53-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T11:41:37-08:00 ERR (3): ImageMagick failed with status code 9.
+2018-01-21T12:21:41-08:00 ERR (3): ImageMagick failed with status code 9.
+2018-01-21T12:40:45-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/444e07d840f2f11d274baeba1881ccc0.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_444e07d840f2f11d274baeba1881ccc0.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T12:40:45-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T12:47:24-08:00 ERR (3): ImageMagick failed with status code 9.
+2018-01-21T12:47:34-08:00 ERR (3): ImageMagick failed with status code 9.
+2018-01-21T16:11:04-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/f3d100f25d228e088a91bc27c8b9aaa6.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_f3d100f25d228e088a91bc27c8b9aaa6.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-21T16:11:04-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-21T16:50:01-08:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(539): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/cpw1', '147')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-01-21T18:18:08-08:00 ERR (3): ImageMagick failed with status code 9.
+2018-01-22T12:03:00-08:00 ERR (3): ImageMagick failed with status code 9.
+2018-01-22T12:03:06-08:00 WARN (4): Error output from ImageMagick:
+convert: insufficient image data in file `/tmp/14edb6c298687d23e418c711dd7394fc.jpg' @ error/jpeg.c/ReadJPEGImage/1008.
+convert: no images defined `/tmp/fullsize_14edb6c298687d23e418c711dd7394fc.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-22T12:03:06-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-22T12:50:59-08:00 ERR (3): ImageMagick failed with status code 9.
+2018-01-22T16:04:48-08:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/6e3d07452bd9547aa27bb32b60237ac7' @ error/constitute.c/ReadImage/544.
+convert: no images defined `/tmp/fullsize_6e3d07452bd9547aa27bb32b60237ac7.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-22T16:04:48-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-01-22T16:04:49-08:00 WARN (4): Error output from ImageMagick:
+convert: no decode delegate for this image format `/tmp/da41e2318dcd6c2e071c1fc628e08f63' @ error/constitute.c/ReadImage/544.
+convert: no images defined `/tmp/fullsize_da41e2318dcd6c2e071c1fc628e08f63.jpg' @ error/convert.c/ConvertImageCommand/3044.
+
+2018-01-22T16:04:49-08:00 ERR (3): ImageMagick failed with status code 1.
+2018-02-10T11:17:59-08:00 ERR (3): exception 'Exception' with message 'Curl error: Could not resolve host: hvvacc.org' in /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php:239
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(395): cdm_download_file('http://hvvacc.o...', 86)
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(519): cdm_insert_item_files(Object(Item), '/cpw1', '86')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(459): cdm_add_meta_and_files(Object(Item), '/cpw1', '86')
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/sync.php(28): cdm_sync_item('/cpw1', '86', 20)
+#4 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_SyncJob->perform()
+#5 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#6 {main}
+2018-04-15T10:28:21-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(498): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '1993')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-15T10:59:15-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(498): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '1993')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-15T11:37:18-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(498): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '1367')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T08:15:27-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(507): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T08:32:39-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(507): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T08:38:36-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(521): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T08:48:40-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(521): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T09:10:44-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(521): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T09:23:04-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(521): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T09:38:54-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(521): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T10:18:50-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(527): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T10:22:09-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(527): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T11:12:20-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(527): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T11:33:17-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(530): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T11:39:47-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(530): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T11:45:30-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(530): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T11:56:32-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(530): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T12:02:09-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(530): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '2375')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T20:00:02-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(510): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '1637')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T20:08:41-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(510): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '1637')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T20:12:15-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(510): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '1637')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T20:16:30-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(506): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '1637')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T20:22:17-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(512): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '1637')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-18T20:30:16-07:00 ERR (3): exception 'Omeka_Validate_Exception' with message 'Element: Invalid element ID.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php:535
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(512): Omeka_Record_AbstractRecord->save()
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/import.php(70): cdm_add_meta_and_files(Object(Item), '/sdma', '1637')
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_ImportJob->perform()
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#4 {main}
+2018-04-19T15:54:42-07:00 ERR (3): exception 'Omeka_View_Exception' with message 'A current item variable has not been set to this view.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/views/helpers/GetCurrentRecord.php:27
+Stack trace:
+#0 [internal function]: Omeka_View_Helper_GetCurrentRecord->getCurrentRecord('item', true)
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(350): call_user_func_array(Array, Array)
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1859): Zend_View_Abstract->__call('getCurrentRecor...', Array)
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1859): Omeka_View->getCurrentRecord('item', true)
+#4 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1316): get_current_record('item')
+#5 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/MoreExhibitLayouts/views/shared/exhibit_layouts/1-across/layout.php(36): get_collection_for_item()
+#6 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/View.php(117): include('/home/arkirklan...')
+#7 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/home/arkirklan...')
+#8 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Helper/Partial.php(109): Zend_View_Abstract->render('exhibit_layouts...')
+#9 [internal function]: Zend_View_Helper_Partial->partial('exhibit_layouts...', Array)
+#10 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(350): call_user_func_array(Array, Array)
+#11 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/ExhibitBuilder/helpers/ExhibitPageFunctions.php(34): Zend_View_Abstract->__call('partial', Array)
+#12 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/ExhibitBuilder/helpers/ExhibitPageFunctions.php(34): Omeka_View->partial('exhibit_layouts...', Array)
+#13 /home/arkirkland/ardenkirkland.com/omekasandbox/themes/consortium/exhibit-builder/exhibits/show.php(23): exhibit_builder_render_exhibit_page()
+#14 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/View.php(117): include('/home/arkirklan...')
+#15 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/home/arkirklan...')
+#16 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(912): Zend_View_Abstract->render('exhibits/show.p...')
+#17 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(933): Zend_Controller_Action_Helper_ViewRenderer->renderScript('exhibits/show.p...', NULL)
+#18 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(972): Zend_Controller_Action_Helper_ViewRenderer->render()
+#19 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#20 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#21 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('showAction')
+#22 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#23 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#24 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#25 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#26 /home/arkirkland/ardenkirkland.com/omekasandbox/index.php(23): Omeka_Application->run()
+#27 {main}
+2018-04-19T16:06:42-07:00 ERR (3): exception 'Omeka_View_Exception' with message 'A current item variable has not been set to this view.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/views/helpers/GetCurrentRecord.php:27
+Stack trace:
+#0 [internal function]: Omeka_View_Helper_GetCurrentRecord->getCurrentRecord('item', true)
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(350): call_user_func_array(Array, Array)
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1859): Zend_View_Abstract->__call('getCurrentRecor...', Array)
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1859): Omeka_View->getCurrentRecord('item', true)
+#4 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1316): get_current_record('item')
+#5 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/MoreExhibitLayouts/views/shared/exhibit_layouts/1-across/layout.php(38): get_collection_for_item()
+#6 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/View.php(117): include('/home/arkirklan...')
+#7 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/home/arkirklan...')
+#8 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Helper/Partial.php(109): Zend_View_Abstract->render('exhibit_layouts...')
+#9 [internal function]: Zend_View_Helper_Partial->partial('exhibit_layouts...', Array)
+#10 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(350): call_user_func_array(Array, Array)
+#11 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/ExhibitBuilder/helpers/ExhibitPageFunctions.php(34): Zend_View_Abstract->__call('partial', Array)
+#12 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/ExhibitBuilder/helpers/ExhibitPageFunctions.php(34): Omeka_View->partial('exhibit_layouts...', Array)
+#13 /home/arkirkland/ardenkirkland.com/omekasandbox/themes/consortium/exhibit-builder/exhibits/show.php(23): exhibit_builder_render_exhibit_page()
+#14 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/View.php(117): include('/home/arkirklan...')
+#15 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/home/arkirklan...')
+#16 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(912): Zend_View_Abstract->render('exhibits/show.p...')
+#17 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(933): Zend_Controller_Action_Helper_ViewRenderer->renderScript('exhibits/show.p...', NULL)
+#18 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(972): Zend_Controller_Action_Helper_ViewRenderer->render()
+#19 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#20 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#21 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('showAction')
+#22 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#23 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#24 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#25 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#26 /home/arkirkland/ardenkirkland.com/omekasandbox/index.php(23): Omeka_Application->run()
+#27 {main}
+2018-04-19T16:15:57-07:00 ERR (3): exception 'Omeka_View_Exception' with message 'A current item variable has not been set to this view.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/views/helpers/GetCurrentRecord.php:27
+Stack trace:
+#0 [internal function]: Omeka_View_Helper_GetCurrentRecord->getCurrentRecord('item', true)
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(350): call_user_func_array(Array, Array)
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1859): Zend_View_Abstract->__call('getCurrentRecor...', Array)
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1859): Omeka_View->getCurrentRecord('item', true)
+#4 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1316): get_current_record('item')
+#5 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/MoreExhibitLayouts/views/shared/exhibit_layouts/1-across/layout.php(12): get_collection_for_item()
+#6 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/View.php(117): include('/home/arkirklan...')
+#7 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/home/arkirklan...')
+#8 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Helper/Partial.php(109): Zend_View_Abstract->render('exhibit_layouts...')
+#9 [internal function]: Zend_View_Helper_Partial->partial('exhibit_layouts...', Array)
+#10 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(350): call_user_func_array(Array, Array)
+#11 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/ExhibitBuilder/helpers/ExhibitPageFunctions.php(34): Zend_View_Abstract->__call('partial', Array)
+#12 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/ExhibitBuilder/helpers/ExhibitPageFunctions.php(34): Omeka_View->partial('exhibit_layouts...', Array)
+#13 /home/arkirkland/ardenkirkland.com/omekasandbox/themes/consortium/exhibit-builder/exhibits/show.php(23): exhibit_builder_render_exhibit_page()
+#14 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/View.php(117): include('/home/arkirklan...')
+#15 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/home/arkirklan...')
+#16 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(912): Zend_View_Abstract->render('exhibits/show.p...')
+#17 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(933): Zend_Controller_Action_Helper_ViewRenderer->renderScript('exhibits/show.p...', NULL)
+#18 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(972): Zend_Controller_Action_Helper_ViewRenderer->render()
+#19 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#20 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#21 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('showAction')
+#22 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#23 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#24 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#25 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#26 /home/arkirkland/ardenkirkland.com/omekasandbox/index.php(23): Omeka_Application->run()
+#27 {main}
+2018-04-19T16:16:15-07:00 ERR (3): exception 'Omeka_View_Exception' with message 'A current item variable has not been set to this view.' in /home/arkirkland/ardenkirkland.com/omekasandbox/application/views/helpers/GetCurrentRecord.php:27
+Stack trace:
+#0 [internal function]: Omeka_View_Helper_GetCurrentRecord->getCurrentRecord('item', true)
+#1 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(350): call_user_func_array(Array, Array)
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1859): Zend_View_Abstract->__call('getCurrentRecor...', Array)
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1859): Omeka_View->getCurrentRecord('item', true)
+#4 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/globals.php(1316): get_current_record('item')
+#5 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/MoreExhibitLayouts/views/shared/exhibit_layouts/1-across/layout.php(12): get_collection_for_item()
+#6 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/View.php(117): include('/home/arkirklan...')
+#7 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/home/arkirklan...')
+#8 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Helper/Partial.php(109): Zend_View_Abstract->render('exhibit_layouts...')
+#9 [internal function]: Zend_View_Helper_Partial->partial('exhibit_layouts...', Array)
+#10 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(350): call_user_func_array(Array, Array)
+#11 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/ExhibitBuilder/helpers/ExhibitPageFunctions.php(34): Zend_View_Abstract->__call('partial', Array)
+#12 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/ExhibitBuilder/helpers/ExhibitPageFunctions.php(34): Omeka_View->partial('exhibit_layouts...', Array)
+#13 /home/arkirkland/ardenkirkland.com/omekasandbox/themes/consortium/exhibit-builder/exhibits/show.php(23): exhibit_builder_render_exhibit_page()
+#14 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/View.php(117): include('/home/arkirklan...')
+#15 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/View/Abstract.php(888): Omeka_View->_run('/home/arkirklan...')
+#16 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(912): Zend_View_Abstract->render('exhibits/show.p...')
+#17 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(933): Zend_Controller_Action_Helper_ViewRenderer->renderScript('exhibits/show.p...', NULL)
+#18 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/Helper/ViewRenderer.php(972): Zend_Controller_Action_Helper_ViewRenderer->render()
+#19 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action/HelperBroker.php(277): Zend_Controller_Action_Helper_ViewRenderer->postDispatch()
+#20 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Action.php(527): Zend_Controller_Action_HelperBroker->notifyPostDispatch()
+#21 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Dispatcher/Standard.php(308): Zend_Controller_Action->dispatch('showAction')
+#22 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Controller/Front.php(954): Zend_Controller_Dispatcher_Standard->dispatch(Object(Zend_Controller_Request_Http), Object(Zend_Controller_Response_Http))
+#23 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Application/Bootstrap/Bootstrap.php(105): Zend_Controller_Front->dispatch()
+#24 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Zend/Application.php(384): Zend_Application_Bootstrap_Bootstrap->run()
+#25 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Application.php(77): Zend_Application->run()
+#26 /home/arkirkland/ardenkirkland.com/omekasandbox/index.php(23): Omeka_Application->run()
+#27 {main}
