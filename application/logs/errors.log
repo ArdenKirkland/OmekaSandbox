@@ -1185,3 +1185,15 @@ Stack trace:
 #24 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Application.php(77): Zend_Application->run()
 #25 /home/arkirkland/ardenkirkland.com/omekasandbox/index.php(23): Omeka_Application->run()
 #26 {main}
+2018-07-23T15:39:59-07:00 ERR (3): exception 'Exception' with message 'Could not retrieve user info.' in /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/HistoryLog/HistoryLogPlugin.php:444
+Stack trace:
+#0 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/HistoryLog/HistoryLogPlugin.php(241): HistoryLogPlugin->_logEvent(Object(File), 'delete')
+#1 [internal function]: HistoryLogPlugin->hookAfterDeleteRecord(Array)
+#2 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Plugin/Broker.php(157): call_user_func(Array, Array)
+#3 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php(295): Omeka_Plugin_Broker->callHook('after_delete_re...', Array)
+#4 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Record/AbstractRecord.php(593): Omeka_Record_AbstractRecord->runCallbacks('afterDelete')
+#5 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/helpers/APIfunctions.php(461): Omeka_Record_AbstractRecord->delete()
+#6 /home/arkirkland/ardenkirkland.com/omekasandbox/plugins/CdmLink/jobs/sync.php(28): cdm_sync_item('/waam', '289', 118)
+#7 /home/arkirkland/ardenkirkland.com/omekasandbox/application/libraries/Omeka/Job/Process/Wrapper.php(29): CdmLink_SyncJob->perform()
+#8 /home/arkirkland/ardenkirkland.com/omekasandbox/application/scripts/background.php(61): Omeka_Job_Process_Wrapper->run(Array)
+#9 {main}

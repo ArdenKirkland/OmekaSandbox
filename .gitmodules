@@ -7,3 +7,6 @@
 [submodule "plugins/CdmLink"]
 	path = plugins/CdmLink
 	url = https://github.com/ArdenKirkland/CdmLink.git
+[submodule "plugins/CsvExport"]
+	path = plugins/CsvExport
+	url = https://github.com/ArdenKirkland/CsvExport.git
